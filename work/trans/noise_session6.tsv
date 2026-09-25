@@ -1,0 +1,232 @@
+file	off	len	ja	reason
+2000.MDT	01C48	3	ぼ ぬ	periodic_stride
+2000.MDT	01C54	3	ぼ0ぬ	periodic_stride
+2000.MDT	01C60	3	ぼ1ぬ	periodic_stride
+E800.MDT	01418	3	だぼぼ	periodic_stride
+E800.MDT	01444	3	だぼぼ	periodic_stride
+E800.MDT	01470	3	だぼぼ	periodic_stride
+E800.MDT	0149C	3	だぼぼ	periodic_stride
+E800.MDT	014C8	3	だぼぼ	periodic_stride
+E800.MDT	014F4	3	だぼぼ	periodic_stride
+E800.MDT	01520	3	だぼぼ	periodic_stride
+E800.MDT	0154C	3	だぼぼ	periodic_stride
+E800.MDT	01578	3	だぼぼ	periodic_stride
+E800.MDT	015A4	3	だぼぼ	periodic_stride
+E800.MDT	015D0	3	だぼぼ	periodic_stride
+E800.MDT	015FC	3	だぼニ	periodic_stride
+E800.MDT	0162A	3	だぼニ	periodic_stride
+E800.MDT	01658	3	だぼニ	periodic_stride
+E800.MDT	01686	3	だぼニ	periodic_stride
+E800.MDT	016B4	3	だぼニ	periodic_stride
+E800.MDT	016E2	3	だぼニ	periodic_stride
+E800.MDT	01710	4	だぼニ 	periodic_stride
+E800.MDT	0173E	4	だぼニ 	periodic_stride
+E800.MDT	0176C	4	だぼニ 	periodic_stride
+E800.MDT	0179A	4	だぼニ 	periodic_stride
+E800.MDT	017C8	4	だぼニ 	periodic_stride
+E800.MDT	017F6	4	だぼニ 	periodic_stride
+E800.MDT	01824	4	だぼニ 	periodic_stride
+E800.MDT	01852	4	だぼニ 	periodic_stride
+E800.MDT	01880	4	だぼニ 	periodic_stride
+E800.MDT	01916	3	ぜぼぼ	periodic_stride
+E800.MDT	0191C	3	ぜぼぼ	periodic_stride
+E800.MDT	01922	3	ぜぼぼ	periodic_stride
+E800.MDT	0194E	3	だぼぼ	periodic_stride
+E800.MDT	0197A	3	だぼぼ	periodic_stride
+E800.MDT	019A6	3	だぼぼ	periodic_stride
+E800.MDT	019D2	3	だぼぼ	periodic_stride
+E800.MDT	019FE	3	だぼぼ	periodic_stride
+E800.MDT	01A2A	3	だぼニ	periodic_stride
+E800.MDT	01A58	3	だぼニ	periodic_stride
+E800.MDT	01A86	3	だぼニ	periodic_stride
+E800.MDT	01AB4	3	だぼニ	periodic_stride
+E800.MDT	01AE2	3	だぼニ	periodic_stride
+E800.MDT	01B10	3	だぼニ	periodic_stride
+E800.MDT	01B3E	3	だぼニ	periodic_stride
+E800.MDT	01B6C	3	だぼニ	periodic_stride
+EB04.MDT	00270	3	ぼぜぬ	periodic_stride
+EB04.MDT	00276	3	ぼそぬ	periodic_stride
+EB04.MDT	0027C	3	ぼなぬ	periodic_stride
+EB04.MDT	00282	3	ぼしぬ	periodic_stride
+EB04.MDT	00288	3	ぼじぬ	periodic_stride
+EB04.MDT	0028E	3	ぼすぬ	periodic_stride
+EB04.MDT	00294	3	ぼずぬ	periodic_stride
+EB04.MDT	0029A	3	ぼせぬ	periodic_stride
+EB04.MDT	002B2	3	ヌァぬ	periodic_stride
+EB04.MDT	002B8	3	ぼぞぬ	periodic_stride
+EB04.MDT	002BE	3	ぼつぬ	periodic_stride
+EB04.MDT	002C4	3	ぼたぬ	periodic_stride
+EB04.MDT	002CA	3	ぼづぬ	periodic_stride
+EB04.MDT	002D0	3	ぼだぬ	periodic_stride
+EB04.MDT	002D6	3	ぼてぬ	periodic_stride
+EB04.MDT	002DC	3	ぼちぬ	periodic_stride
+EB04.MDT	002E2	3	ぼでぬ	periodic_stride
+EB04.MDT	002E8	3	ぼぢぬ	periodic_stride
+EB04.MDT	002EE	3	ぼとぬ	periodic_stride
+EB04.MDT	002F4	3	ぼっぬ	periodic_stride
+EB04.MDT	002FA	3	ぼどぬ	periodic_stride
+EB04.MDT	0030C	3	ぼにぬ	periodic_stride
+EB08.MDT	003AA	3	ぼ0ぬ	periodic_stride
+EB08.MDT	003B0	3	ぼ1ぬ	periodic_stride
+EB08.MDT	003B6	3	ぼ2ぬ	periodic_stride
+EB08.MDT	003C2	3	ぼ0ぬ	periodic_stride
+EB08.MDT	003C8	3	ぼ1ぬ	periodic_stride
+EB08.MDT	003CE	3	ぼ2ぬ	periodic_stride
+EB08.MDT	003D4	3	ぼ3ぬ	periodic_stride
+EB14.MDT	00020	3	ぼぐぬ	periodic_stride
+EB14.MDT	00026	3	ぼけぬ	periodic_stride
+EB14.MDT	0002C	3	ぼげ 	periodic_stride
+EC00.MDT	00014	3	ぼ6ぬ	periodic_stride
+EC00.MDT	00020	3	ぼ8ぬ	periodic_stride
+EC00.MDT	0002C	3	ぼ7ぬ	periodic_stride
+2000.MDT	0014A	3	ぼ6ぬ	vm_arg_short
+2000.MDT	001CE	3	ぼ7れ	vm_arg_short
+2000.MDT	0022E	4	ぼ8れだ	vm_arg_short
+2000.MDT	00916	3	ぼかぬ	vm_arg_short
+2000.MDT	009D8	3	ぼがぬ	vm_arg_short
+2000.MDT	00A2A	3	ぼきぬ	vm_arg_short
+2000.MDT	00D3C	3	ぼ9ぬ	vm_arg_short
+2000.MDT	00D7E	3	ぼ9ぬ	vm_arg_short
+2000.MDT	00FF6	3	ぼ9ぬ	vm_arg_short
+2000.MDT	01B3E	3	ぼ7ぬ	vm_arg_short
+2000.MDT	01B50	3	ぼ6ぬ	vm_arg_short
+2000.MDT	01CB8	3	ぼ7ぬ	vm_arg_short
+2000.MDT	01CCA	3	ぼ8ぬ	vm_arg_short
+D800.MDT	0000E	3	ぼ3ぬ	vm_arg_short
+D800.MDT	00028	3	ぼ0ぬ	vm_arg_short
+D800.MDT	00062	3	ぼ2ぬ	vm_arg_short
+D800.MDT	00140	3	ぼ1が	vm_arg_short
+E800.MDT	00092	3	ニネぬ	vm_arg_short
+E800.MDT	00140	3	ぼぎぬ	vm_arg_short
+E800.MDT	0019E	3	ぼがぬ	vm_arg_short
+E800.MDT	001AA	3	ぼきぬ	vm_arg_short
+E800.MDT	002BE	3	ぼバぬ	vm_arg_short
+E800.MDT	002E8	3	ぼくぬ	vm_arg_short
+E800.MDT	00304	3	ぼくぬ	vm_arg_short
+E800.MDT	00380	3	ぼくぬ	vm_arg_short
+E800.MDT	00660	3	ニタが	vm_arg_short
+E800.MDT	00790	3	ニタ～	vm_arg_short
+E800.MDT	00DA2	3	ぼ6ぬ	vm_arg_short
+E800.MDT	00DA8	3	ぼ7ぬ	vm_arg_short
+E800.MDT	00DBA	3	ぼ8ぬ	vm_arg_short
+E800.MDT	00DC0	3	ぼ9ぬ	vm_arg_short
+E800.MDT	00E10	3	ぼノが	vm_arg_short
+E800.MDT	01018	3	ぼぐぬ	vm_arg_short
+E800.MDT	01B8A	3	ぜぼぼ	vm_arg_short
+E800.MDT	01B90	3	ぜぼぼ	vm_arg_short
+E804.MDT	00010	3	ニチ～	vm_arg_short
+E808.MDT	00010	3	ニッ～	vm_arg_short
+E80C.MDT	00010	3	ニヅ～	vm_arg_short
+E810.MDT	00010	3	ニデ～	vm_arg_short
+E814.MDT	004CC	3	ニド～	vm_arg_short
+E818.MDT	000C4	3	ニニ～	vm_arg_short
+E81C.MDT	0003E	3	ニヌぬ	vm_arg_short
+E81C.MDT	0097A	3	ぼパぬ	vm_arg_short
+EA00.MDT	0014A	3	ヌつ～	vm_arg_short
+EA04.MDT	00010	3	ヌて～	vm_arg_short
+EA08.MDT	00010	3	ヌと～	vm_arg_short
+EA0C.MDT	00010	3	ヌな～	vm_arg_short
+EA10.MDT	00010	3	ヌぬ～	vm_arg_short
+EA14.MDT	00010	3	ヌの～	vm_arg_short
+EA18.MDT	000FA	3	ヌば～	vm_arg_short
+EB00.MDT	00102	3	ヌも～	vm_arg_short
+EB04.MDT	00020	3	ぼじぬ	vm_arg_short
+EB04.MDT	000FA	3	ヌや～	vm_arg_short
+EB08.MDT	00010	3	ヌや～	vm_arg_short
+EB08.MDT	0044A	3	ぼ4ぬ	vm_arg_short
+EB08.MDT	00494	3	ぼ5ぬ	vm_arg_short
+EB08.MDT	0054A	3	ぼ9ぬ	vm_arg_short
+EB0C.MDT	00094	3	ヌよ～	vm_arg_short
+EB10.MDT	0009A	3	ヌり～	vm_arg_short
+EB14.MDT	00052	3	ぼこぬ	vm_arg_short
+EB14.MDT	00058	3	ぼごぬ	vm_arg_short
+EB14.MDT	00064	3	ぼさが	vm_arg_short
+EB14.MDT	00094	3	ヌれ～	vm_arg_short
+EB18.MDT	000D2	3	ヌゎ～	vm_arg_short
+EB1C.MDT	001E6	3	ヌを～	vm_arg_short
+EC00.MDT	000F8	3	ヌク～	vm_arg_short
+EC04.MDT	00010	3	ヌケ～	vm_arg_short
+EC0C.MDT	00010	3	ヌサ～	vm_arg_short
+EC10.MDT	00010	3	ヌシ～	vm_arg_short
+EC14.MDT	00010	3	ヌネ～	vm_arg_short
+EC18.MDT	00120	3	ヌハ～	vm_arg_short
+2000.MDT	000E6	4	ぼ 自自	vm_arg_prefix_contam
+2000.MDT	0010C	5	ぼ返ぷぬ	vm_arg_prefix_contam
+2000.MDT	00118	5	ぼ敷ホぬ	vm_arg_prefix_contam
+2000.MDT	0021A	5	ぼ敷ゃぬ	vm_arg_prefix_contam
+2000.MDT	003AC	5	ぼ敷9が	vm_arg_prefix_contam
+2000.MDT	003BC	5	ぼ敷謎	vm_arg_prefix_contam
+2000.MDT	009DC	5	ぼ敷納	vm_arg_prefix_contam
+2000.MDT	00C80	4	ぼ 自自	vm_arg_prefix_contam
+2000.MDT	00CC2	6	ぼ敷珍ご	vm_arg_prefix_contam
+2000.MDT	0109A	5	ぼ敷ビが	vm_arg_prefix_contam
+2000.MDT	019DC	19	ぼ敷づれミ‥‥どうして おまえたちは	vm_arg_prefix_contam
+2000.MDT	01B56	4	ぼ9 ・	vm_arg_prefix_contam
+2000.MDT	01E3C	5	ぼ敷だが	vm_arg_prefix_contam
+2000.MDT	04B88	5	ぼ敷8ぬ	vm_arg_prefix_contam
+2000.MDT	04D90	18	ぼ敷C キなんだぁ おまえたちは？	vm_arg_prefix_contam
+2000.MDT	056E0	17	 P蒸気技師‥‥ いや‥‥	vm_arg_prefix_contam
+2000.MDT	06656	15	 Dもうすぐ 交代だしな！	vm_arg_prefix_contam
+2000.MDT	07450	18	 Bなかなか見つかんないわねえ‥‥	vm_arg_prefix_contam
+2000.MDT	0830E	5	ぼ敷ざが	vm_arg_prefix_contam
+2000.MDT	08418	5	ぼ敷ざ～	vm_arg_prefix_contam
+2000.MDT	08530	5	ぼ敷ざが	vm_arg_prefix_contam
+2000.MDT	0EACC	5	ぼ敷ざが	vm_arg_prefix_contam
+D800.MDT	00020	5	ぼ敷被	vm_arg_prefix_contam
+D800.MDT	00066	6	ぼ敷ポ タ	vm_arg_prefix_contam
+D800.MDT	00134	3	ぼ ぬ	vm_arg_prefix_contam
+D804.MDT	00040	6	ぼ敷7 ベ	vm_arg_prefix_contam
+D804.MDT	0020E	5	ぼ敷7ぬ	vm_arg_prefix_contam
+E800.MDT	00096	5	ぼ敷ぇぬ	vm_arg_prefix_contam
+E800.MDT	000B2	5	ぼ敷だが	vm_arg_prefix_contam
+E800.MDT	000C2	5	ぼ敷だぬ	vm_arg_prefix_contam
+E800.MDT	000E0	5	ぼ敷ぴ 	vm_arg_prefix_contam
+E800.MDT	00104	5	ぼ敷珍	vm_arg_prefix_contam
+E800.MDT	0012C	5	ぼ敷7ぬ	vm_arg_prefix_contam
+E800.MDT	00138	5	ぼ敷被	vm_arg_prefix_contam
+E800.MDT	001AE	6	ぼ敷珍て	vm_arg_prefix_contam
+E800.MDT	0083C	6	ぼ敷珍7	vm_arg_prefix_contam
+E800.MDT	008CE	5	ぼ敷納	vm_arg_prefix_contam
+E800.MDT	0093C	5	ぼ敷納	vm_arg_prefix_contam
+E800.MDT	00AD4	4	ぼ 自自	vm_arg_prefix_contam
+E800.MDT	00B44	4	ぼ 自自	vm_arg_prefix_contam
+E800.MDT	00E18	5	ぼ敷ざが	vm_arg_prefix_contam
+E800.MDT	00E44	5	ぼ詰つが	vm_arg_prefix_contam
+E800.MDT	00E8C	5	ぼ敷珍	vm_arg_prefix_contam
+E800.MDT	01008	5	ぼ敷納	vm_arg_prefix_contam
+E800.MDT	0103A	4	ぼ 自自	vm_arg_prefix_contam
+E800.MDT	0124C	5	ぼ返ご～	vm_arg_prefix_contam
+E804.MDT	0028C	5	ぼ敷ァぬ	vm_arg_prefix_contam
+E804.MDT	002C2	5	ぼ敷避	vm_arg_prefix_contam
+E804.MDT	002E6	5	ぼ返ご～	vm_arg_prefix_contam
+E808.MDT	0032E	5	ぼ敷ぴ～	vm_arg_prefix_contam
+E80C.MDT	00410	5	ぼ敷ぴ～	vm_arg_prefix_contam
+E810.MDT	0020E	5	ぼ敷ぴ～	vm_arg_prefix_contam
+E818.MDT	0012A	5	ぼ敷納	vm_arg_prefix_contam
+E818.MDT	00188	5	ぼ敷納	vm_arg_prefix_contam
+E818.MDT	001F6	5	ぼ敷納	vm_arg_prefix_contam
+E81C.MDT	00054	4	ぼ 自自	vm_arg_prefix_contam
+E81C.MDT	000FE	6	ぼ敷珍ォ	vm_arg_prefix_contam
+E81C.MDT	0042C	6	ぼ敷7 5	vm_arg_prefix_contam
+E81C.MDT	006D4	6	ぼ敷珍ク	vm_arg_prefix_contam
+E81C.MDT	009BA	5	ぼ敷ぴぬ	vm_arg_prefix_contam
+EA00.MDT	0003A	5	ぼ敷被	vm_arg_prefix_contam
+EA00.MDT	00046	5	ぼ敷ョぬ	vm_arg_prefix_contam
+EA00.MDT	00124	5	ぼ敷被	vm_arg_prefix_contam
+EA18.MDT	00040	6	ぼ敷あ へ	vm_arg_prefix_contam
+EA18.MDT	000D0	5	ぼ敷被	vm_arg_prefix_contam
+EB00.MDT	0001A	5	ぼ敷被	vm_arg_prefix_contam
+EB00.MDT	00060	6	ぼ詰さ ご	vm_arg_prefix_contam
+EB00.MDT	000C4	5	ぼ敷被	vm_arg_prefix_contam
+EB04.MDT	00048	5	ぼ敷あ 	vm_arg_prefix_contam
+EB08.MDT	003E0	4	ぼ6 ぞ	vm_arg_prefix_contam
+EB08.MDT	004A0	4	ぼ8 キ	vm_arg_prefix_contam
+EB0C.MDT	00220	5	ぼ敷7ぬ	vm_arg_prefix_contam
+EB10.MDT	00314	5	ぼ敷納	vm_arg_prefix_contam
+EB14.MDT	0005C	5	ぼ敷被	vm_arg_prefix_contam
+EB18.MDT	00026	5	ぼ敷珍	vm_arg_prefix_contam
+EB18.MDT	00050	5	ぼ敷あぬ	vm_arg_prefix_contam
+EB18.MDT	000AC	5	ぼ敷被	vm_arg_prefix_contam
+EB1C.MDT	00210	5	ぼ敷7ぬ	vm_arg_prefix_contam
+EC00.MDT	00030	6	ぼ敷ョ サ	vm_arg_prefix_contam
+EC18.MDT	0004A	6	ぼ敷が を	vm_arg_prefix_contam

@@ -1,0 +1,81 @@
+트랙 193620섹터, 파일 356개 (0.2s)
+섹터 색인 116169개 (0.2s)
+
+== WorkRAML_sw : 섹터 일치 1194건 (0.0s)
+   /BATLE/MGDAT.BIN           @ +0xBEB090  (버스 0x-0214F70)  섹터일치 1
+   /FIELD/2000.MDT            @ +0xF5F298  (버스 0x0015F298)  섹터일치 6
+   /FIELD/HYABG.BIN           @ +0xFD9434  (버스 0x001D9434)  섹터일치 2
+   /FIELD/PGR08.CPD           @ +0xFF2530  (버스 0x001F2530)  섹터일치 69
+   /FIELD/D804.MDT            @ +0xFFA72C  (버스 0x001FA72C)  섹터일치 2
+   /BIN/FDATA.BIN             @ +0x000000  (버스 0x00200000)  섹터일치 31
+   /FIELD/EC0C.MDT            @ +0x002F20  (버스 0x00202F20)  섹터일치 2
+   /FIELD/PGR04.CPD           @ +0x0081F8  (버스 0x002081F8)  섹터일치 102
+   /FIELD/PGR0E.CPD           @ +0x008220  (버스 0x00208220)  섹터일치 38
+   /FIELD/PGR02.CPD           @ +0x0089B0  (버스 0x002089B0)  섹터일치 99
+   /FIELD/PGR0C.CPD           @ +0x0091A8  (버스 0x002091A8)  섹터일치 70
+   /FIELD/PGR05.CPD           @ +0x00A2C0  (버스 0x0020A2C0)  섹터일치 100
+   /FIELD/PGR00.CPD           @ +0x00B1EC  (버스 0x0020B1EC)  섹터일치 39
+   /FIELD/E800.MDT            @ +0x00B9E8  (버스 0x0020B9E8)  섹터일치 200
+   /FIELD/PGR03.CPD           @ +0x00C174  (버스 0x0020C174)  섹터일치 69
+   /FIELD/PGR01.CPD           @ +0x00D244  (버스 0x0020D244)  섹터일치 65
+   /FIELD/PGR0A.CPD           @ +0x00DE88  (버스 0x0020DE88)  섹터일치 67
+   /FIELD/E81C.MDT            @ +0x00E194  (버스 0x0020E194)  섹터일치 41
+   /FIELD/PGR0F.CPD           @ +0x00E4B8  (버스 0x0020E4B8)  섹터일치 66
+   /FIELD/PGR06.CPD           @ +0x010A8C  (버스 0x00210A8C)  섹터일치 37
+   /FIELD/PGR09.CPD           @ +0x01AD40  (버스 0x0021AD40)  섹터일치 30
+   /BATLE/P1WIN.BIN           @ +0x07408C  (버스 0x0027408C)  섹터일치 4
+   /BATLE/P3A_Q.BIN           @ +0x078254  (버스 0x00278254)  섹터일치 10
+   /BATLE/P3A_H.BIN           @ +0x07B260  (버스 0x0027B260)  섹터일치 10
+   /FIELD/E818.MDT            @ +0x0926EC  (버스 0x002926EC)  섹터일치 33
+   /FIELD/EB10.MDT            @ +0x09B02C  (버스 0x0029B02C)  섹터일치 1
+
+== WorkRAMH_sw : 섹터 일치 558건 (0.0s)
+   /FIELD/GM3.STZ             @ +0x8AE000  (버스 0x048AE000)  섹터일치 4
+   /BATLE/MGDAT.BIN           @ +0x79ED6C  (버스 0x0579ED6C)  섹터일치 17
+   /BATLE/BATLE.BIN           @ +0xFD4498  (버스 0x05FD4498)  섹터일치 4
+   /FIELD/MONST.BIN           @ +0xFD5058  (버스 0x05FD5058)  섹터일치 10
+   /BATLE/B018.BBG            @ +0xFE8484  (버스 0x05FE8484)  섹터일치 5
+   /BATLE/B017.BBG            @ +0xFE9400  (버스 0x05FE9400)  섹터일치 5
+   /FIELD/HAYAG.BIN           @ +0xFF2880  (버스 0x05FF2880)  섹터일치 113
+   /FIELD/CMDMN.BIN           @ +0xFFA130  (버스 0x05FFA130)  섹터일치 7
+   /FIELD/BY100.BIN           @ +0xFFA4F0  (버스 0x05FFA4F0)  섹터일치 7
+   /BIN/SUEWN.BIN             @ +0xFFAC04  (버스 0x05FFAC04)  섹터일치 16
+   /FIELD/SHOP.BIN            @ +0xFFF71C  (버스 0x05FFF71C)  섹터일치 9
+   /FIELD/KNPAN.BIN           @ +0xFFFF18  (버스 0x05FFFF18)  섹터일치 11
+   /FIELD/ITGET.BIN           @ +0x0009E8  (버스 0x060009E8)  섹터일치 10
+   /BATLE/BTEST.BBG           @ +0x0026DC  (버스 0x060026DC)  섹터일치 2
+   /FIELD/CNFIG.BIN           @ +0x002D60  (버스 0x06002D60)  섹터일치 7
+   /BIN/FACER.BIN             @ +0x002F28  (버스 0x06002F28)  섹터일치 13
+   /BIN/HAYAG.BIN             @ +0x002F78  (버스 0x06002F78)  섹터일치 6
+   /FIELD/DORAM.BIN           @ +0x0031C8  (버스 0x060031C8)  섹터일치 11
+   /BIN/LOGO.BIN              @ +0x004D44  (버스 0x06004D44)  섹터일치 11
+   /FIELD/BARLG.BIN           @ +0x005620  (버스 0x06005620)  섹터일치 8
+   /0                         @ +0x00A000  (버스 0x0600A000)  섹터일치 9
+   /FIELD/RFROG.BIN           @ +0x00CD5C  (버스 0x0600CD5C)  섹터일치 6
+   /FIELD/ENDNG.BIN           @ +0x00E87C  (버스 0x0600E87C)  섹터일치 10
+   /MUSIC/SSYS.BIN            @ +0x01047C  (버스 0x0601047C)  섹터일치 2
+   /FIELD/SUEWN.BIN           @ +0x014D80  (버스 0x06014D80)  섹터일치 7
+   /FIELD/FACER.BIN           @ +0x0186D4  (버스 0x060186D4)  섹터일치 7
+   /FIELD/MWIN6.BIN           @ +0x01BC94  (버스 0x0601BC94)  섹터일치 8
+   /BATLE/B015.BBG            @ +0x01EF40  (버스 0x0601EF40)  섹터일치 1
+   /MUSIC/GRSND.BIN           @ +0x022400  (버스 0x06022400)  섹터일치 4
+   /FIELD/SAVER.BIN           @ +0x029F50  (버스 0x06029F50)  섹터일치 10
+   /BIN/TITLE.BIN             @ +0x02B198  (버스 0x0602B198)  섹터일치 10
+   /FIELD/FIPAN.BIN           @ +0x02B1B4  (버스 0x0602B1B4)  섹터일치 8
+   /FIELD/LOGO.BIN            @ +0x02B204  (버스 0x0602B204)  섹터일치 5
+   /FIELD/FIELD.BIN           @ +0x02BAE4  (버스 0x0602BAE4)  섹터일치 152
+   /BIN/CHART.BIN             @ +0x04DBE4  (버스 0x0604DBE4)  섹터일치 5
+   /BATLE/MEDIT.BIN           @ +0x0525D0  (버스 0x060525D0)  섹터일치 2
+   /FIELD/OBONG.BIN           @ +0x060154  (버스 0x06060154)  섹터일치 8
+   /FIELD/MATER.BIN           @ +0x062174  (버스 0x06062174)  섹터일치 5
+   /FIELD/SVLD.BIN            @ +0x0622A4  (버스 0x060622A4)  섹터일치 1
+   /FIELD/MGAME.BIN           @ +0x0643E4  (버스 0x060643E4)  섹터일치 7
+   /BIN/TESTM.BIN             @ +0x0691A8  (버스 0x060691A8)  섹터일치 4
+
+== WorkRAML : 섹터 일치 0건 (0.0s)
+
+== WorkRAMH : 섹터 일치 0건 (0.0s)
+
+== VRAM : 섹터 일치 0건 (0.0s)
+
+== VRAM_1 : 섹터 일치 0건 (0.0s)

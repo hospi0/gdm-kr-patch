@@ -1,0 +1,944 @@
+file	section	off	slot	jp	ko
+FIELD_MTMES.DAT	미술설정1	00018	9	美術設定1	
+FIELD_MTMES.DAT	미술설정1	00022	9	ジャスティンの家	
+FIELD_MTMES.DAT	미술설정1	0002C	6	パームの街	
+FIELD_MTMES.DAT	미술설정1	00033	6	パームの港	
+FIELD_MTMES.DAT	미술설정1	0003A	12	サルト遺跡・外観	
+FIELD_MTMES.DAT	미술설정1	00047	13	サルト遺跡・地下1	
+FIELD_MTMES.DAT	미술설정1	00055	13	サルト遺跡・地下2	
+FIELD_MTMES.DAT	미술설정1	00063	7	レック鉱山	
+FIELD_MTMES.DAT	미술설정1	0006B	6	幽霊船	
+FIELD_MTMES.DAT	미술설정1	00072	11	幽霊船・広間	
+FIELD_MTMES.DAT	미술설정1	0007E	13	幽霊船・船長室	
+FIELD_MTMES.DAT	미술설정1	0008C	7	フィーナの家	
+FIELD_MTMES.DAT	미술설정1	00094	6	ドム遺跡	
+FIELD_MTMES.DAT	미술설정1	0009B	11	ガーライル軍基地	
+FIELD_MTMES.DAT	미술설정1	000A7	6	ダイトの村	
+FIELD_MTMES.DAT	미술설정1	000AE	7	ガドインの家	
+FIELD_MTMES.DAT	미술설정1	000B6	7	雨月の塔	
+FIELD_MTMES.DAT	미술설정2	000C0	9	美術設定2	
+FIELD_MTMES.DAT	미술설정2	000CA	6	ガンボの村	
+FIELD_MTMES.DAT	미술설정2	000D1	11	ガンボの村・食堂	
+FIELD_MTMES.DAT	미술설정2	000DD	6	海竜船	
+FIELD_MTMES.DAT	미술설정2	000E4	6	ジールパドン	
+FIELD_MTMES.DAT	미술설정2	000EB	9	モゲラット地区	
+FIELD_MTMES.DAT	미술설정2	000F5	11	レーヌの村・入口	
+FIELD_MTMES.DAT	미술설정2	00101	11	ミルダの家・寝室	
+FIELD_MTMES.DAT	미술설정2	0010D	7	ドーリンの家	
+FIELD_MTMES.DAT	미술설정2	00115	4	アレント	
+FIELD_MTMES.DAT	미술설정2	0011A	8	アレント神殿	
+FIELD_MTMES.DAT	미술설정2	00123	11	アレント・大広間	
+FIELD_MTMES.DAT	미술설정2	0012F	12	アレント・教王の間	
+FIELD_MTMES.DAT	미술설정2	0013C	14	軍事都市J・全景	
+FIELD_MTMES.DAT	미술설정2	0014B	14	軍事都市J・入口	
+FIELD_MTMES.DAT	미술설정2	0015A	16	軍事都市J・司令室	
+FIELD_MTMES.DAT	미술설정2	0016B	14	光翼人地下遺跡	
+FIELD_MTMES.DAT	몬스터설정	0017C	9	モンスター設定	
+FIELD_MTMES.DAT	몬스터설정	00186	8	マウンテンエイプ	
+FIELD_MTMES.DAT	몬스터설정	0018F	4	赤オニ	
+FIELD_MTMES.DAT	몬스터설정	00194	6	ピンクメイジ	
+FIELD_MTMES.DAT	몬스터설정	0019B	10	異次元戦士	
+FIELD_MTMES.DAT	몬스터설정	001A6	4	イノゴン	
+FIELD_MTMES.DAT	몬스터설정	001AB	6	クエクエ鳥	
+FIELD_MTMES.DAT	몬스터설정	001B2	5	陸ナマコ	
+FIELD_MTMES.DAT	몬스터설정	001B8	6	ガイアデビル	
+FIELD_MTMES.DAT	몬스터설정	001BF	6	ロックバード	
+FIELD_MTMES.DAT	몬스터설정	001C6	6	ガイアサソリ	
+FIELD_MTMES.DAT	몬스터설정	001CD	5	マッカチン	
+FIELD_MTMES.DAT	몬스터설정	001D3	5	スパイダー	
+FIELD_MTMES.DAT	몬스터설정	001D9	6	ブルーカイト	
+FIELD_MTMES.DAT	몬스터설정	001E0	4	リザード	
+FIELD_MTMES.DAT	몬스터설정	001E5	7	殺りくマシン	
+FIELD_MTMES.DAT	몬스터설정	001ED	7	ガイアバトラー	
+FIELD_MTMES.DAT	캐릭터설정1	001F8	11	キャラクター設定1	
+FIELD_MTMES.DAT	캐릭터설정1	00204	10	ジャスティン 立ち	
+FIELD_MTMES.DAT	캐릭터설정1	0020F	9	ジャスティン 攻撃	
+FIELD_MTMES.DAT	캐릭터설정1	00219	10	フィーナ 腕組み	
+FIELD_MTMES.DAT	캐릭터설정1	00224	8	フィーナ 待ち	
+FIELD_MTMES.DAT	캐릭터설정1	0022D	9	フィーナ ムチ攻撃	
+FIELD_MTMES.DAT	캐릭터설정1	00237	8	スー けっとばし	
+FIELD_MTMES.DAT	캐릭터설정1	00240	6	スー 待ち	
+FIELD_MTMES.DAT	캐릭터설정1	00247	10	スー 勝利ポーズ	
+FIELD_MTMES.DAT	캐릭터설정1	00252	11	ガドイン 必殺技	
+FIELD_MTMES.DAT	캐릭터설정1	0025E	9	ガドイン しゃがみ	
+FIELD_MTMES.DAT	캐릭터설정1	00268	10	ラップ ロープ昇り	
+FIELD_MTMES.DAT	캐릭터설정1	00273	8	ラップ 魔球	
+FIELD_MTMES.DAT	캐릭터설정1	0027C	9	ギド モゲ注射	
+FIELD_MTMES.DAT	캐릭터설정1	00286	6	ギド 座り	
+FIELD_MTMES.DAT	캐릭터설정1	0028D	13	リエーテ 魔法詠唱	
+FIELD_MTMES.DAT	캐릭터설정1	0029B	8	リエーテ 待ち	
+FIELD_MTMES.DAT	캐릭터설정2	002A4	11	キャラクター設定2	
+FIELD_MTMES.DAT	캐릭터설정2	002B0	8	ミルダ 食事	
+FIELD_MTMES.DAT	캐릭터설정2	002B9	11	ミルダ 勝利ポーズ	
+FIELD_MTMES.DAT	캐릭터설정2	002C5	10	ミルダ 大ダメージ	
+FIELD_MTMES.DAT	캐릭터설정2	002D0	9	ミューレン 走り	
+FIELD_MTMES.DAT	캐릭터설정2	002DA	12	ミューレン 昇竜斬	
+FIELD_MTMES.DAT	캐릭터설정2	002E7	9	サキ 下着姿	
+FIELD_MTMES.DAT	캐릭터설정2	002F1	8	ミオ スタンガン	
+FIELD_MTMES.DAT	캐릭터설정2	002FA	7	ナナ ムチ攻撃	
+FIELD_MTMES.DAT	캐릭터설정2	00302	12	リーン 光翼人化	
+FIELD_MTMES.DAT	캐릭터설정2	0030F	7	リーン 走り	
+FIELD_MTMES.DAT	캐릭터설정2	00317	9	バール 倒れてる	
+FIELD_MTMES.DAT	캐릭터설정2	00321	10	バール 決めポーズ	
+FIELD_MTMES.DAT	캐릭터설정2	0032C	11	ミルダ 熱い抱よう	
+FIELD_MTMES.DAT	캐릭터설정2	00338	9	リリィ おぼん攻撃	
+FIELD_MTMES.DAT	캐릭터설정2	00342	14	用心棒の先生 攻撃	
+FIELD_MTMES.DAT	캐릭터설정2	00351	9	人魚 おねがい	
+FIELD_MTMES.DAT	캐릭터설정3	0035C	11	キャラクター設定3	
+FIELD_MTMES.DAT	캐릭터설정3	00368	9	バール怪物化	
+FIELD_MTMES.DAT	캐릭터설정3	00372	11	バール究極進化	
+FIELD_MTMES.DAT	캐릭터설정3	0037E	6	スー17才	
+FIELD_MTMES.DAT	캐릭터설정3	00385	3	ゴンツ	
+FIELD_MTMES.DAT	캐릭터설정3	00389	8	カフーの少女	
+FIELD_MTMES.DAT	캐릭터설정3	00392	8	レーヌの姉弟	
+FIELD_MTMES.DAT	캐릭터설정3	0039B	6	女幽霊	
+FIELD_MTMES.DAT	캐릭터설정3	003A2	4	船長	
+FIELD_MTMES.DAT	캐릭터설정3	003A7	3	ニッキ	
+FIELD_MTMES.DAT	캐릭터설정3	003AB	7	ルクの村長	
+FIELD_MTMES.DAT	캐릭터설정3	003B3	7	ナイナとダンダ	
+FIELD_MTMES.DAT	캐릭터설정3	003BB	11	ダイトの女医アルマ	
+FIELD_MTMES.DAT	캐릭터설정3	003C7	8	フィーナのケープ	
+FIELD_MTMES.DAT	캐릭터설정3	003D0	11	ジャスティンの子供	
+FIELD_MTMES.DAT	캐릭터설정3	003DC	9	レーヌの男の子	
+FIELD_MTMES.DAT	캐릭터설정3	003E6	4	ダーリン	
+FIELD_DICDT.DAT	도감머리말	29BD0	8	もんすた～ずかん	
+FIELD_DICDT.DAT	도감머리말	29BD9	9	モンスターの本1	
+FIELD_DICDT.DAT	도감머리말	29BE3	9	モンスターの本2	
+FIELD_DICDT.DAT	도감머리말	29BED	9	モンスターの本3	
+FIELD_DICDT.DAT	도감머리말	29BF7	9	モンスターの本4	
+FIELD_DICDT.DAT	도감머리말	29C01	9	モンスターの本5	
+FIELD_DICDT.DAT	도감머리말	29C0B	9	モンスターの本6	
+FIELD_DICDT.DAT	도감머리말	29C15	9	モンスターの本7	
+FIELD_DICDT.DAT	도감머리말	29C1F	9	モンスターの本8	
+FIELD_DICDT.DAT	도감머리말	29C29	8	モンスター名：	
+FIELD_DICDT.DAT	도감머리말	29C32	7	出現地：	
+FIELD_DICDT.DAT	몬스터명	29C3C	4	青オニ	
+FIELD_DICDT.DAT	몬스터명	29C41	4	赤オニ	
+FIELD_DICDT.DAT	몬스터명	29C46	6	暴れカエル	
+FIELD_DICDT.DAT	몬스터명	29C4D	6	あやしいモヤ	
+FIELD_DICDT.DAT	몬스터명	29C54	6	アリゲーター	
+FIELD_DICDT.DAT	몬스터명	29C5B	5	アンモナー	
+FIELD_DICDT.DAT	몬스터명	29C61	5	イカキング	
+FIELD_DICDT.DAT	몬스터명	29C67	8	生けるしかばね	
+FIELD_DICDT.DAT	몬스터명	29C70	10	異次元戦士	
+FIELD_DICDT.DAT	몬스터명	29C7B	4	イノゴン	
+FIELD_DICDT.DAT	몬스터명	29C80	6	イボデーモン	
+FIELD_DICDT.DAT	몬스터명	29C87	8	ウィルオウィスプ	
+FIELD_DICDT.DAT	몬스터명	29C90	8	エメラルドハニワ	
+FIELD_DICDT.DAT	몬스터명	29C99	5	えらイモリ	
+FIELD_DICDT.DAT	몬스터명	29C9F	8	エリートクレップ	
+FIELD_DICDT.DAT	몬스터명	29CA8	6	大芋虫	
+FIELD_DICDT.DAT	몬스터명	29CAF	8	オオカミ戦士	
+FIELD_DICDT.DAT	몬스터명	29CB8	3	オーク	
+FIELD_DICDT.DAT	몬스터명	29CBC	6	オークキング	
+FIELD_DICDT.DAT	몬스터명	29CC3	5	オオマユガ	
+FIELD_DICDT.DAT	몬스터명	29CC9	5	大ムカデ	
+FIELD_DICDT.DAT	몬스터명	29CCF	7	オラン・イカン	
+FIELD_DICDT.DAT	몬스터명	29CD7	3	オロチ	
+FIELD_DICDT.DAT	몬스터명	29CDB	4	怨霊	
+FIELD_DICDT.DAT	몬스터명	29CE0	6	ガーディアン	
+FIELD_DICDT.DAT	몬스터명	29CE7	7	ガイアアーマー	
+FIELD_DICDT.DAT	몬스터명	29CEF	6	ガイアエイプ	
+FIELD_DICDT.DAT	몬스터명	29CF6	8	ガイアエイリアン	
+FIELD_DICDT.DAT	몬스터명	29CFF	8	ガイアオニサソリ	
+FIELD_DICDT.DAT	몬스터명	29D08	6	ガイアキノコ	
+FIELD_DICDT.DAT	몬스터명	29D0F	8	ガイアキャンサー	
+FIELD_DICDT.DAT	몬스터명	29D18	6	ガイアグミラ	
+FIELD_DICDT.DAT	몬스터명	29D1F	6	ガイアサソリ	
+FIELD_DICDT.DAT	몬스터명	29D26	6	ガイアスター	
+FIELD_DICDT.DAT	몬스터명	29D2D	7	ガイアスネーク	
+FIELD_DICDT.DAT	몬스터명	29D35	6	ガイアゾンビ	
+FIELD_DICDT.DAT	몬스터명	29D3C	6	ガイアツリー	
+FIELD_DICDT.DAT	몬스터명	29D43	6	ガイアデビル	
+FIELD_DICDT.DAT	몬스터명	29D4A	6	ガイアドラゴ	
+FIELD_DICDT.DAT	몬스터명	29D51	7	ガイアトレント	
+FIELD_DICDT.DAT	몬스터명	29D59	6	ガイアナイト	
+FIELD_DICDT.DAT	몬스터명	29D60	6	ガイアナマコ	
+FIELD_DICDT.DAT	몬스터명	29D67	6	ガイアバード	
+FIELD_DICDT.DAT	몬스터명	29D6E	7	ガイアバトラー	
+FIELD_DICDT.DAT	몬스터명	29D76	7	ガイアビートル	
+FIELD_DICDT.DAT	몬스터명	29D7E	6	ガイアフライ	
+FIELD_DICDT.DAT	몬스터명	29D85	7	ガイアブレイン	
+FIELD_DICDT.DAT	몬스터명	29D8D	6	ガイアホーン	
+FIELD_DICDT.DAT	몬스터명	29D94	5	ガイアマン	
+FIELD_DICDT.DAT	몬스터명	29D9A	6	ガスクラウド	
+FIELD_DICDT.DAT	몬스터명	29DA1	4	ガニメデ	
+FIELD_DICDT.DAT	몬스터명	29DA6	5	ガマキング	
+FIELD_DICDT.DAT	몬스터명	29DAC	5	カメレオン	
+FIELD_DICDT.DAT	몬스터명	29DB2	6	ガラクタエビ	
+FIELD_DICDT.DAT	몬스터명	29DB9	6	キツツキエイ	
+FIELD_DICDT.DAT	몬스터명	29DC0	5	キノコ鳥	
+FIELD_DICDT.DAT	몬스터명	29DC6	6	キラーツリー	
+FIELD_DICDT.DAT	몬스터명	29DCD	6	キングホーン	
+FIELD_DICDT.DAT	몬스터명	29DD4	6	クエクエ鳥	
+FIELD_DICDT.DAT	몬스터명	29DDB	5	クリッター	
+FIELD_DICDT.DAT	몬스터명	29DE1	5	グリップル	
+FIELD_DICDT.DAT	몬스터명	29DE7	7	くるくるヒトデ	
+FIELD_DICDT.DAT	몬스터명	29DEF	8	クレップ騎兵	
+FIELD_DICDT.DAT	몬스터명	29DF8	7	クレップナイト	
+FIELD_DICDT.DAT	몬스터명	29E00	7	クレップほへい	
+FIELD_DICDT.DAT	몬스터명	29E08	4	幻竜	
+FIELD_DICDT.DAT	몬스터명	29E0D	6	げんわく蝶	
+FIELD_DICDT.DAT	몬스터명	29E14	8	こうてつ巨人	
+FIELD_DICDT.DAT	몬스터명	29E1D	4	ゴースト	
+FIELD_DICDT.DAT	몬스터명	29E22	7	ゴーストもどき	
+FIELD_DICDT.DAT	몬스터명	29E2A	5	こけつむり	
+FIELD_DICDT.DAT	몬스터명	29E30	6	古代がに	
+FIELD_DICDT.DAT	몬스터명	29E37	6	古代魚	
+FIELD_DICDT.DAT	몬스터명	29E3E	5	サーペント	
+FIELD_DICDT.DAT	몬스터명	29E44	7	殺りくマシン	
+FIELD_DICDT.DAT	몬스터명	29E4C	6	サボテンマン	
+FIELD_DICDT.DAT	몬스터명	29E53	8	さまよう人魂	
+FIELD_DICDT.DAT	몬스터명	29E5C	6	サラマダイル	
+FIELD_DICDT.DAT	몬스터명	29E63	7	サンドスネーク	
+FIELD_DICDT.DAT	몬스터명	29E6B	5	サンドマン	
+FIELD_DICDT.DAT	몬스터명	29E71	6	サンドワーム	
+FIELD_DICDT.DAT	몬스터명	29E78	5	シーゼリー	
+FIELD_DICDT.DAT	몬스터명	29E7E	6	ジールサソリ	
+FIELD_DICDT.DAT	몬스터명	29E85	8	時空のヨロイ	
+FIELD_DICDT.DAT	몬스터명	29E8E	7	シザースロック	
+FIELD_DICDT.DAT	몬스터명	29E96	8	樹海の守り	
+FIELD_DICDT.DAT	몬스터명	29E9F	7	城主の霊	
+FIELD_DICDT.DAT	몬스터명	29EA7	7	スィートアゲハ	
+FIELD_DICDT.DAT	몬스터명	29EAF	8	スサノオグレート	
+FIELD_DICDT.DAT	몬스터명	29EB8	5	スタットル	
+FIELD_DICDT.DAT	몬스터명	29EBE	5	砂潜り	
+FIELD_DICDT.DAT	몬스터명	29EC4	5	スパイダー	
+FIELD_DICDT.DAT	몬스터명	29ECA	7	スフィタウロス	
+FIELD_DICDT.DAT	몬스터명	29ED2	6	スフィンクス	
+FIELD_DICDT.DAT	몬스터명	29ED9	4	スラミン	
+FIELD_DICDT.DAT	몬스터명	29EDE	5	スリップル	
+FIELD_DICDT.DAT	몬스터명	29EE4	7	ソニックバット	
+FIELD_DICDT.DAT	몬스터명	29EEC	3	ゾンビ	
+FIELD_DICDT.DAT	몬스터명	29EF0	6	大悪魔	
+FIELD_DICDT.DAT	몬스터명	29EF7	5	タランテラ	
+FIELD_DICDT.DAT	몬스터명	29EFD	9	血吸いこうもり	
+FIELD_DICDT.DAT	몬스터명	29F07	6	ツチノコブラ	
+FIELD_DICDT.DAT	몬스터명	29F0E	4	ドードー	
+FIELD_DICDT.DAT	몬스터명	29F13	7	トカゲライダー	
+FIELD_DICDT.DAT	몬스터명	29F1B	4	トゲガマ	
+FIELD_DICDT.DAT	몬스터명	29F20	6	ドタドタ鳥	
+FIELD_DICDT.DAT	몬스터명	29F27	5	ドムオーク	
+FIELD_DICDT.DAT	몬스터명	29F2D	6	ドラゴノイド	
+FIELD_DICDT.DAT	몬스터명	29F34	7	トリガラナイト	
+FIELD_DICDT.DAT	몬스터명	29F3C	4	トレント	
+FIELD_DICDT.DAT	몬스터명	29F41	5	泥クラゲ	
+FIELD_DICDT.DAT	몬스터명	29F47	7	ナーガクイーン	
+FIELD_DICDT.DAT	몬스터명	29F4F	6	ナメクジウオ	
+FIELD_DICDT.DAT	몬스터명	29F56	6	ニタリクジラ	
+FIELD_DICDT.DAT	몬스터명	29F5D	6	ニャルモット	
+FIELD_DICDT.DAT	몬스터명	29F64	6	バードレイク	
+FIELD_DICDT.DAT	몬스터명	29F6B	6	ハイエナ男	
+FIELD_DICDT.DAT	몬스터명	29F72	7	パタパタきのこ	
+FIELD_DICDT.DAT	몬스터명	29F7A	6	バタバタ鳥	
+FIELD_DICDT.DAT	몬스터명	29F81	5	ハニワ鳥	
+FIELD_DICDT.DAT	몬스터명	29F87	7	ハンマーゴイル	
+FIELD_DICDT.DAT	몬스터명	29F8F	6	ヒトカミキリ	
+FIELD_DICDT.DAT	몬스터명	29F96	4	ヒバゴン	
+FIELD_DICDT.DAT	몬스터명	29F9B	6	ピンクメイジ	
+FIELD_DICDT.DAT	몬스터명	29FA2	8	不思議鳥	
+FIELD_DICDT.DAT	몬스터명	29FAB	7	プテラノボーン	
+FIELD_DICDT.DAT	몬스터명	29FB3	6	ブルーカイト	
+FIELD_DICDT.DAT	몬스터명	29FBA	7	ブルジャッカル	
+FIELD_DICDT.DAT	몬스터명	29FC2	4	プルリン	
+FIELD_DICDT.DAT	몬스터명	29FC7	7	ブレインバット	
+FIELD_DICDT.DAT	몬스터명	29FCF	4	ヘドロン	
+FIELD_DICDT.DAT	몬스터명	29FD4	6	ベビーバット	
+FIELD_DICDT.DAT	몬스터명	29FDB	6	ヘルハウンド	
+FIELD_DICDT.DAT	몬스터명	29FE2	7	ヘルパンチョス	
+FIELD_DICDT.DAT	몬스터명	29FEA	6	ホットドッグ	
+FIELD_DICDT.DAT	몬스터명	29FF1	7	炎の番犬	
+FIELD_DICDT.DAT	몬스터명	29FF9	8	マウンテンエイプ	
+FIELD_DICDT.DAT	몬스터명	2A002	9	魔界の使者	
+FIELD_DICDT.DAT	몬스터명	2A00C	5	マグまじん	
+FIELD_DICDT.DAT	몬스터명	2A012	7	マジックヘッド	
+FIELD_DICDT.DAT	몬스터명	2A01A	5	マダラグモ	
+FIELD_DICDT.DAT	몬스터명	2A020	5	マッカチン	
+FIELD_DICDT.DAT	몬스터명	2A026	6	マッドラゴン	
+FIELD_DICDT.DAT	몬스터명	2A02D	7	マッドライダー	
+FIELD_DICDT.DAT	몬스터명	2A035	8	魔法皇帝	
+FIELD_DICDT.DAT	몬스터명	2A03E	7	マリンギャング	
+FIELD_DICDT.DAT	몬스터명	2A046	7	マルナテントウ	
+FIELD_DICDT.DAT	몬스터명	2A04E	6	ミストレイス	
+FIELD_DICDT.DAT	몬스터명	2A055	7	ミドダイショウ	
+FIELD_DICDT.DAT	몬스터명	2A05D	7	メタルビートル	
+FIELD_DICDT.DAT	몬스터명	2A065	7	メデュダンサー	
+FIELD_DICDT.DAT	몬스터명	2A06D	4	木人	
+FIELD_DICDT.DAT	몬스터명	2A072	7	モモシャクトリ	
+FIELD_DICDT.DAT	몬스터명	2A07A	5	ヤジロエイ	
+FIELD_DICDT.DAT	몬스터명	2A080	5	陸ナマコ	
+FIELD_DICDT.DAT	몬스터명	2A086	6	リバイアサン	
+FIELD_DICDT.DAT	몬스터명	2A08D	6	竜騎士	
+FIELD_DICDT.DAT	몬스터명	2A094	3	リリス	
+FIELD_DICDT.DAT	몬스터명	2A098	7	ルインガーダー	
+FIELD_DICDT.DAT	몬스터명	2A0A0	7	ロードクローラ	
+FIELD_DICDT.DAT	몬스터명	2A0A8	6	ロックバード	
+FIELD_DICDT.DAT	몬스터명	2A0AF	5	ロックマン	
+FIELD_DICDT.DAT	몬스터명	2A0B5	7	マッドタートル	
+FIELD_DICDT.DAT	몬스터명	2A0BD	5	クラーケン	
+FIELD_DICDT.DAT	몬스터명	2A0C3	7	ガイアサボテン	
+FIELD_DICDT.DAT	몬스터명	2A0CB	5	シャーマン	
+FIELD_DICDT.DAT	몬스터명	2A0D1	8	スターフィッシュ	
+FIELD_DICDT.DAT	몬스터명	2A0DA	4	ウパルパ	
+FIELD_DICDT.DAT	몬스터명	2A0DF	7	レッサークラブ	
+FIELD_DICDT.DAT	출현지	2A0E8	7	ラーマ山脈	
+FIELD_DICDT.DAT	출현지	2A0F0	7	飛竜の谷	
+FIELD_DICDT.DAT	출현지	2A0F8	8	神隠しの丘	
+FIELD_DICDT.DAT	출현지	2A101	7	霧の樹海	
+FIELD_DICDT.DAT	출현지	2A109	5	石の森	
+FIELD_DICDT.DAT	출현지	2A10F	6	幽霊船	
+FIELD_DICDT.DAT	출현지	2A116	6	幽霊船	
+FIELD_DICDT.DAT	출현지	2A11D	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A12C	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A13B	8	ブリナン高原	
+FIELD_DICDT.DAT	출현지	2A144	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A14C	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A156	8	世界の果て	
+FIELD_DICDT.DAT	출현지	2A15F	5	虹の山	
+FIELD_DICDT.DAT	출현지	2A165	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A16D	7	未開の森	
+FIELD_DICDT.DAT	출현지	2A175	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A17F	7	レック鉱山	
+FIELD_DICDT.DAT	출현지	2A187	7	レック鉱山	
+FIELD_DICDT.DAT	출현지	2A18F	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A197	7	マルナ街道	
+FIELD_DICDT.DAT	출현지	2A19F	12	光翼人地下街	
+FIELD_DICDT.DAT	출현지	2A1AC	4	アレント	
+FIELD_DICDT.DAT	출현지	2A1B1	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A1B8	9	精霊の聖地	
+FIELD_DICDT.DAT	출현지	2A1C2	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A1CA	17	ガイア復活後ルゼット山脈	
+FIELD_DICDT.DAT	출현지	2A1DC	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A1E4	19	ガイア復活後サバナ原野・他	
+FIELD_DICDT.DAT	출현지	2A1F8	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A200	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A208	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A210	16	ガイア復活後サバナ原野	
+FIELD_DICDT.DAT	출현지	2A221	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A229	19	ガイア復活後ジール砂漠・他	
+FIELD_DICDT.DAT	출현지	2A23D	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A245	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A24D	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A255	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A25D	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A265	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A26D	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A275	16	ガイア復活後サバナ原野	
+FIELD_DICDT.DAT	출현지	2A286	9	禍いの塔・他	
+FIELD_DICDT.DAT	출현지	2A290	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A298	16	ガイア復活後サバナ原野	
+FIELD_DICDT.DAT	출현지	2A2A9	15	魔導の塔・ガイア内部	
+FIELD_DICDT.DAT	출현지	2A2B9	15	ジールパドン崩壊後・他	
+FIELD_DICDT.DAT	출현지	2A2C9	7	ガイア内部	
+FIELD_DICDT.DAT	출현지	2A2D1	16	霧の樹海・世界の果て	
+FIELD_DICDT.DAT	출현지	2A2E2	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A2E9	7	人魚の島	
+FIELD_DICDT.DAT	출현지	2A2F1	7	未開の森	
+FIELD_DICDT.DAT	출현지	2A2F9	8	神隠しの丘	
+FIELD_DICDT.DAT	출현지	2A302	8	神隠しの丘	
+FIELD_DICDT.DAT	출현지	2A30B	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A313	7	霧の樹海	
+FIELD_DICDT.DAT	출현지	2A31B	8	ルゼット山脈	
+FIELD_DICDT.DAT	출현지	2A324	7	メリル山道	
+FIELD_DICDT.DAT	출현지	2A32C	9	精霊の聖地	
+FIELD_DICDT.DAT	출현지	2A336	7	ラーマ山脈	
+FIELD_DICDT.DAT	출현지	2A33E	10	異次元空間	
+FIELD_DICDT.DAT	출현지	2A349	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A351	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A359	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A361	4	アレント	
+FIELD_DICDT.DAT	출현지	2A366	7	サバナ原野	
+FIELD_DICDT.DAT	출현지	2A36E	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A378	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A380	6	幽霊船	
+FIELD_DICDT.DAT	출현지	2A387	14	ニューパーム地下通路	
+FIELD_DICDT.DAT	출현지	2A396	12	地下鉄道遺跡	
+FIELD_DICDT.DAT	출현지	2A3A3	12	光翼人地下街	
+FIELD_DICDT.DAT	출현지	2A3B0	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A3B8	8	神隠しの丘	
+FIELD_DICDT.DAT	출현지	2A3C1	7	ジール砂漠	
+FIELD_DICDT.DAT	출현지	2A3C9	5	火の山	
+FIELD_DICDT.DAT	출현지	2A3CF	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A3D7	8	ルゼット山脈	
+FIELD_DICDT.DAT	출현지	2A3E0	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A3EA	7	ジール砂漠	
+FIELD_DICDT.DAT	출현지	2A3F2	6	幽霊船	
+FIELD_DICDT.DAT	출현지	2A3F9	15	ジール砂漠・サバナ原野	
+FIELD_DICDT.DAT	출현지	2A409	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A413	15	ジール砂漠・サバナ原野	
+FIELD_DICDT.DAT	출현지	2A423	7	霧の樹海	
+FIELD_DICDT.DAT	출현지	2A42B	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A433	13	未開の森・石の森	
+FIELD_DICDT.DAT	출현지	2A441	4	アレント	
+FIELD_DICDT.DAT	출현지	2A446	12	地下鉄道遺跡	
+FIELD_DICDT.DAT	출현지	2A453	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A45A	7	レック鉱山	
+FIELD_DICDT.DAT	출현지	2A462	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A471	10	異次元空間	
+FIELD_DICDT.DAT	출현지	2A47C	15	サルト遺跡・レック鉱山	
+FIELD_DICDT.DAT	출현지	2A48C	7	飛竜の谷	
+FIELD_DICDT.DAT	출현지	2A494	8	世界の果て	
+FIELD_DICDT.DAT	출현지	2A49D	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A4A5	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A4AD	7	光神の山	
+FIELD_DICDT.DAT	출현지	2A4B5	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A4BC	16	メリル山道・ラングル山脈	
+FIELD_DICDT.DAT	출현지	2A4CD	7	霧の樹海	
+FIELD_DICDT.DAT	출현지	2A4D5	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A4DD	6	ツインタワー	
+FIELD_DICDT.DAT	출현지	2A4E4	5	虹の山	
+FIELD_DICDT.DAT	출현지	2A4EA	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A4F1	12	光翼人地下街	
+FIELD_DICDT.DAT	출현지	2A4FE	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A50D	7	未開の森	
+FIELD_DICDT.DAT	출현지	2A515	14	ニューパーム地下通路	
+FIELD_DICDT.DAT	출현지	2A524	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A52C	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A534	7	人魚の島	
+FIELD_DICDT.DAT	출현지	2A53C	8	神隠しの丘	
+FIELD_DICDT.DAT	출현지	2A545	7	霧の樹海	
+FIELD_DICDT.DAT	출현지	2A54D	12	地下鉄道遺跡	
+FIELD_DICDT.DAT	출현지	2A55A	7	飛竜の谷	
+FIELD_DICDT.DAT	출현지	2A562	7	サバナ原野	
+FIELD_DICDT.DAT	출현지	2A56A	8	世界の果て	
+FIELD_DICDT.DAT	출현지	2A573	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A57B	7	薬草の山	
+FIELD_DICDT.DAT	출현지	2A583	8	ルゼット山脈	
+FIELD_DICDT.DAT	출현지	2A58C	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A594	8	ラングル山脈	
+FIELD_DICDT.DAT	출현지	2A59D	7	夢幻の城	
+FIELD_DICDT.DAT	출현지	2A5A5	7	ラーマ山脈	
+FIELD_DICDT.DAT	출현지	2A5AD	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A5B5	6	ドム遺跡	
+FIELD_DICDT.DAT	출현지	2A5BC	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A5C4	22	ニューパーム地下通路・薬草の山	
+FIELD_DICDT.DAT	출현지	2A5DB	15	サルト遺跡・レック鉱山	
+FIELD_DICDT.DAT	출현지	2A5EB	10	異次元空間	
+FIELD_DICDT.DAT	출현지	2A5F6	10	異次元空間	
+FIELD_DICDT.DAT	출현지	2A601	5	火の山	
+FIELD_DICDT.DAT	출현지	2A607	9	戦士の墓場	
+FIELD_DICDT.DAT	출현지	2A611	8	ブリナン高原	
+FIELD_DICDT.DAT	출현지	2A61A	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A622	5	火の山	
+FIELD_DICDT.DAT	출현지	2A628	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A637	15	メリル山道・薬草の山	
+FIELD_DICDT.DAT	출현지	2A647	5	虹の山	
+FIELD_DICDT.DAT	출현지	2A64D	5	火の山	
+FIELD_DICDT.DAT	출현지	2A653	7	雨月の塔	
+FIELD_DICDT.DAT	출현지	2A65B	9	精霊の聖地	
+FIELD_DICDT.DAT	출현지	2A665	7	人魚の島	
+FIELD_DICDT.DAT	출현지	2A66D	7	マルナ街道	
+FIELD_DICDT.DAT	출현지	2A675	8	世界の果て	
+FIELD_DICDT.DAT	출현지	2A67E	7	光神の山	
+FIELD_DICDT.DAT	출현지	2A686	7	光神の山	
+FIELD_DICDT.DAT	출현지	2A68E	6	ツインタワー	
+FIELD_DICDT.DAT	출현지	2A695	18	ドム遺跡への道・霧の樹海	
+FIELD_DICDT.DAT	출현지	2A6A8	8	ラングル山脈	
+FIELD_DICDT.DAT	출현지	2A6B1	9	精霊の聖地	
+FIELD_DICDT.DAT	출현지	2A6BB	13	未開の森・石の森	
+FIELD_DICDT.DAT	출현지	2A6C9	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A6D1	7	魔導の塔	
+FIELD_DICDT.DAT	출현지	2A6D9	12	光翼人地下街	
+FIELD_DICDT.DAT	출현지	2A6E6	14	ジールパドン地下遺跡	
+FIELD_DICDT.DAT	출현지	2A6F5	15	メリル山道・薬草の山	
+FIELD_DICDT.DAT	출현지	2A705	7	サルト遺跡	
+FIELD_DICDT.DAT	출현지	2A70D	7	飛竜の谷	
+FIELD_DICDT.DAT	설명문	2A71C	26	腕力が高く 武器の小オニを使った攻撃は	
+FIELD_DICDT.DAT	설명문	2A737	20	かなりのダメージを与える       	
+FIELD_DICDT.DAT	설명문	2A74C	23	最近 貧血ぎみらしい         	
+FIELD_DICDT.DAT	설명문	2A765	21	遠くの敵めがけて 小オニをぶつけてくる	
+FIELD_DICDT.DAT	설명문	2A77B	24	炎系の魔法に やや強い        	
+FIELD_DICDT.DAT	설명문	2A794	23	毎日 日光よくを かかさない     	
+FIELD_DICDT.DAT	설명문	2A7AD	21	大きな舌で なんども攻撃してくる   	
+FIELD_DICDT.DAT	설명문	2A7C3	21	カエルなので 水が大スキ       	
+FIELD_DICDT.DAT	설명문	2A7D9	21	ジャンプの距離は 1メートルくらい  	
+FIELD_DICDT.DAT	설명문	2A7F0	25	『クラウドアタック』は 体を高速で回し	
+FIELD_DICDT.DAT	설명문	2A80A	25	敵を切り裂き 混乱状態にさせる    	
+FIELD_DICDT.DAT	설명문	2A824	21	ビンに入っているが売られてはいない  	
+FIELD_DICDT.DAT	설명문	2A83B	22	シッポから くり出す『パラテイル』で 	
+FIELD_DICDT.DAT	설명문	2A852	21	敵を マヒ状態にさせる        	
+FIELD_DICDT.DAT	설명문	2A868	25	革は高級品として 珍重されるらしい  	
+FIELD_DICDT.DAT	설명문	2A883	22	『ローリングアタック』は 固いカラで 	
+FIELD_DICDT.DAT	설명문	2A89A	25	突撃して 単体に大ダメージを与える技 	
+FIELD_DICDT.DAT	설명문	2A8B4	22	焼いて食べると 美味しそう      	
+FIELD_DICDT.DAT	설명문	2A8CC	25	『吸い込み』で 敵を引き寄せ     	
+FIELD_DICDT.DAT	설명문	2A8E6	20	じわじわと攻撃して ダメージを与える 	
+FIELD_DICDT.DAT	설명문	2A8FB	20	イカのくせに スミは吐かない     	
+FIELD_DICDT.DAT	설명문	2A911	24	体から放出するガスで 防御力を下げたり	
+FIELD_DICDT.DAT	설명문	2A92A	22	マヒ状態を 起こさせたりする     	
+FIELD_DICDT.DAT	설명문	2A941	22	死んでいるけど 血は 固まっていない 	
+FIELD_DICDT.DAT	설명문	2A959	29	上半身を高速回転させて 手に持った刀で	
+FIELD_DICDT.DAT	설명문	2A977	25	敵を 斬りつける 水系の魔法に弱い  	
+FIELD_DICDT.DAT	설명문	2A991	20	どこから来たのか わからない     	
+FIELD_DICDT.DAT	설명문	2A9A7	20	味方が少なくなってくると さびしがり 	
+FIELD_DICDT.DAT	설명문	2A9BC	24	鳴いて 仲間を呼び寄せる       	
+FIELD_DICDT.DAT	설명문	2A9D5	22	最近 ダイエットを 始めたらしい   	
+FIELD_DICDT.DAT	설명문	2A9ED	24	両足を使った『デーモンキック』が   	
+FIELD_DICDT.DAT	설명문	2AA06	25	あざやか 強力な爆裂呪文をあやつる  	
+FIELD_DICDT.DAT	설명문	2AA20	21	イボは 鼻の上にある         	
+FIELD_DICDT.DAT	설명문	2AA37	23	炎に 悪しき心が宿ったモンスター   	
+FIELD_DICDT.DAT	설명문	2AA4F	23	炎の手に姿を変え 攻撃してくる    	
+FIELD_DICDT.DAT	설명문	2AA67	23	目と口があるのが 確認されている   	
+FIELD_DICDT.DAT	설명문	2AA80	23	『エメラルドボム』は 火の玉を    	
+FIELD_DICDT.DAT	설명문	2AA98	29	全体に放つ強烈な技 全ての魔法に弱い 	
+FIELD_DICDT.DAT	설명문	2AAB6	19	ダイヤより やわらかい        	
+FIELD_DICDT.DAT	설명문	2AACB	11	敵の防御力を 大�	
+FIELD_DICDT.DAT	설명문	2AAD7	11	に下げたり     	
+FIELD_DICDT.DAT	설명문	2AAE3	23	ステータス異常を 引き起こしたりする 	
+FIELD_DICDT.DAT	설명문	2AAFB	24	黒焼きにして食べると 精力がつく‥‥ 	
+FIELD_DICDT.DAT	설명문	2AB15	25	力を込めて叩き付ける『ダイビング』は 	
+FIELD_DICDT.DAT	설명문	2AB2F	24	衝撃を利用した 範囲攻撃       	
+FIELD_DICDT.DAT	설명문	2AB48	24	クレップ歩兵より ニ階級上らしい   	
+FIELD_DICDT.DAT	설명문	2AB62	25	体の側面から出る『デイジーガス』で  	
+FIELD_DICDT.DAT	설명문	2AB7C	25	疫病効果を一面にふりまく       	
+FIELD_DICDT.DAT	설명문	2AB96	20	丸まっても ころころしない      	
+FIELD_DICDT.DAT	설명문	2ABAC	25	長いタテ髪が特徴の 土色モンスター  	
+FIELD_DICDT.DAT	설명문	2ABC6	23	『ファイヤーブレス』は 範囲攻撃   	
+FIELD_DICDT.DAT	설명문	2ABDE	23	月を見ても 変身しない‥‥      	
+FIELD_DICDT.DAT	설명문	2ABF7	23	斧による打撃を 得意とし       	
+FIELD_DICDT.DAT	설명문	2AC0F	21	身近な敵から 攻撃してくる      	
+FIELD_DICDT.DAT	설명문	2AC25	22	歯並び悪し              	
+FIELD_DICDT.DAT	설명문	2AC3D	20	オークのパワーアップ版        	
+FIELD_DICDT.DAT	설명문	2AC52	26	全てが 強力化されている上 炎を吐く 	
+FIELD_DICDT.DAT	설명문	2AC6D	22	歯並びの悪さも パワーアップ     	
+FIELD_DICDT.DAT	설명문	2AC85	23	『さびりんぷん』で 敵の防御力を下げ 	
+FIELD_DICDT.DAT	설명문	2AC9D	25	『音波』で 敵を混乱させる      	
+FIELD_DICDT.DAT	설명문	2ACB7	22	骨格は さびた鉄で できているらしい 	
+FIELD_DICDT.DAT	설명문	2ACCF	26	移動速度の遅さを キャンセル効果のある	
+FIELD_DICDT.DAT	설명문	2ACEA	23	『トゲ飛ばし』を使い カバーしている 	
+FIELD_DICDT.DAT	설명문	2AD02	19	かけっこは いつもビリ        	
+FIELD_DICDT.DAT	설명문	2AD17	26	魔封じをかける 『魔封剣』や     	
+FIELD_DICDT.DAT	설명문	2AD32	32	即死効果を持つ『魔剣』等 嫌な技が多い	
+FIELD_DICDT.DAT	설명문	2AD53	23	寝る前に 剣をみがく事を かかさない 	
+FIELD_DICDT.DAT	설명문	2AD6C	23	持ち技を 惜しみなく使い 攻撃してくる	
+FIELD_DICDT.DAT	설명문	2AD84	11	自分のHPを 大�	
+FIELD_DICDT.DAT	설명문	2AD90	13	に回復させる奴もいる	
+FIELD_DICDT.DAT	설명문	2AD9E	19	ヤマタではない            	
+FIELD_DICDT.DAT	설명문	2ADB3	25	武器での通常攻撃は 全く効かない   	
+FIELD_DICDT.DAT	설명문	2ADCD	25	炎・風系の魔法に弱い         	
+FIELD_DICDT.DAT	설명문	2ADE7	20	くしゃみを 嫌う           	
+FIELD_DICDT.DAT	설명문	2ADFD	29	聖地を護る守護者 侵入者を見つけると 	
+FIELD_DICDT.DAT	설명문	2AE1B	29	究極難解な『謎掛け』で混乱させる   	
+FIELD_DICDT.DAT	설명문	2AE39	28	上半身と 下半身は 別の生き物らしい 	
+FIELD_DICDT.DAT	설명문	2AE57	28	鋭い刃物の様な腕で 空を円形に裂く  	
+FIELD_DICDT.DAT	설명문	2AE74	22	『デッドサークル』は かなりの切れ味 	
+FIELD_DICDT.DAT	설명문	2AE8B	22	包ちょう さばきは 絶品！      	
+FIELD_DICDT.DAT	설명문	2AEA3	27	巨体を活かし 体当たりや地面を揺らして	
+FIELD_DICDT.DAT	설명문	2AEBF	20	ダメージを与えてくる         	
+FIELD_DICDT.DAT	설명문	2AED4	22	血圧が高く いつもコウフンしている  	
+FIELD_DICDT.DAT	설명문	2AEEC	24	敵の頭上で踊る『ヘッドステップ』は  	
+FIELD_DICDT.DAT	설명문	2AF05	12	各ステータスを 大�	
+FIELD_DICDT.DAT	설명문	2AF12	10	に下げてしまう  	
+FIELD_DICDT.DAT	설명문	2AF1D	21	彼の出すマナエッグは うれしくない‥‥	
+FIELD_DICDT.DAT	설명문	2AF34	24	敵の攻撃や 行動を封じる技を使い   	
+FIELD_DICDT.DAT	설명문	2AF4D	25	魔法も多用してくる とにかく素早い  	
+FIELD_DICDT.DAT	설명문	2AF67	17	軽快なフットワークから出る�	
+FIELD_DICDT.DAT	설명문	2AF79	7	が基本  	
+FIELD_DICDT.DAT	설명문	2AF82	27	体内の胞子を外に出し 防御力を下げたり	
+FIELD_DICDT.DAT	설명문	2AF9E	23	敵を疫病状態にしたりする       	
+FIELD_DICDT.DAT	설명문	2AFB6	21	焼いても 食べられない‥‥      	
+FIELD_DICDT.DAT	설명문	2AFCD	24	とても生物とは思えない 外見をしている	
+FIELD_DICDT.DAT	설명문	2AFE6	22	地面を叩いて 攻撃してくる      	
+FIELD_DICDT.DAT	설명문	2AFFD	21	ストレスを 地面にぶつけている    	
+FIELD_DICDT.DAT	설명문	2B014	24	黒光りのする不定形のモンスター    	
+FIELD_DICDT.DAT	설명문	2B02D	25	体から出すガスで 相手の防御力を下げる	
+FIELD_DICDT.DAT	설명문	2B047	22	でろ～んと分裂して びよ～んと伸びる 	
+FIELD_DICDT.DAT	설명문	2B05F	25	針に猛毒を持つ 巨大なサソリ     	
+FIELD_DICDT.DAT	설명문	2B079	23	『ハサミアタック』で 敵の技を封じる 	
+FIELD_DICDT.DAT	설명문	2B091	20	きれいな 目がチャームポイント    	
+FIELD_DICDT.DAT	설명문	2B0A7	26	『回転アタック』は 敵の 頭上で回り 	
+FIELD_DICDT.DAT	설명문	2B0C2	23	混乱状態にさせる           	
+FIELD_DICDT.DAT	설명문	2B0DA	20	いつもより よけいに回るらしい    	
+FIELD_DICDT.DAT	설명문	2B0F0	20	やわらかい体をしているが       	
+FIELD_DICDT.DAT	설명문	2B105	26	固い岩地を 自由自在に移動する    	
+FIELD_DICDT.DAT	설명문	2B120	23	毎日の ジュウナン体操をかかさない‥‥	
+FIELD_DICDT.DAT	설명문	2B139	24	ガイアの力により 動き出した死体   	
+FIELD_DICDT.DAT	설명문	2B152	25	口から吐くガスをかぐと 移動力が下がる	
+FIELD_DICDT.DAT	설명문	2B16C	21	死んでも 生きている         	
+FIELD_DICDT.DAT	설명문	2B183	23	親から生える実を もぎ取って     	
+FIELD_DICDT.DAT	설명문	2B19B	20	敵に投げつけ 攻撃する        	
+FIELD_DICDT.DAT	설명문	2B1B0	24	口はあるが 栄養は足から取っている  	
+FIELD_DICDT.DAT	설명문	2B1CA	22	敵のステータスを下げたり 回復や攻撃も	
+FIELD_DICDT.DAT	설명문	2B1E1	22	そこそこ出来るなど 攻守にすぐれている	
+FIELD_DICDT.DAT	설명문	2B1F8	21	最近 グチをこぼす‥‥らしい     	
+FIELD_DICDT.DAT	설명문	2B20F	23	『急所つき』は どんなにHPがあっても	
+FIELD_DICDT.DAT	설명문	2B227	21	まともにくらうと 即死してしまう   	
+FIELD_DICDT.DAT	설명문	2B23D	26	毎日 素振りをかかさない 努力屋さん 	
+FIELD_DICDT.DAT	설명문	2B259	23	体液をばらまく『スリープパルン』は  	
+FIELD_DICDT.DAT	설명문	2B271	24	かなりの確りつで 敵を睡眠状態にする 	
+FIELD_DICDT.DAT	설명문	2B28A	21	何でもよく食べる           	
+FIELD_DICDT.DAT	설명문	2B2A1	21	ガイアを守るために 生まれたモンスター	
+FIELD_DICDT.DAT	설명문	2B2B7	27	下半身と上半身を分離させ 攻撃してくる	
+FIELD_DICDT.DAT	설명문	2B2D3	25	たまに 前後を間違えて 後ろに歩く‥‥	
+FIELD_DICDT.DAT	설명문	2B2EE	25	体の側面から出る レーザーの威力は  	
+FIELD_DICDT.DAT	설명문	2B308	27	かなり強力で 全方向に発射可能    	
+FIELD_DICDT.DAT	설명문	2B324	23	精度の悪いレーザーを 数でカバー   	
+FIELD_DICDT.DAT	설명문	2B33D	22	クチバシで 肉をえぐり取り 卵をぶつけ	
+FIELD_DICDT.DAT	설명문	2B354	13	敵の移動力を 大�	
+FIELD_DICDT.DAT	설명문	2B362	11	に下げる      	
+FIELD_DICDT.DAT	설명문	2B36E	22	卵を かえす気が無いらしい      	
+FIELD_DICDT.DAT	설명문	2B386	24	パーティ全体に 強烈なダメージを与える	
+FIELD_DICDT.DAT	설명문	2B39F	27	体は前後対象で死角が無い       	
+FIELD_DICDT.DAT	설명문	2B3BB	24	このデータは 禍いの塔 出現時のモノ 	
+FIELD_DICDT.DAT	설명문	2B3D5	25	カンにさわる羽音で 混乱状態にさせる 	
+FIELD_DICDT.DAT	설명문	2B3EF	26	行動が素早く 技封じも掛けてくる   	
+FIELD_DICDT.DAT	설명문	2B40A	23	自分の羽音に 酔いしれている     	
+FIELD_DICDT.DAT	설명문	2B423	27	低空を飛び 羽から出す『毒りんぷん』で	
+FIELD_DICDT.DAT	설명문	2B43F	23	周囲にいる敵を 猛毒におかす     	
+FIELD_DICDT.DAT	설명문	2B457	20	食べると カリッとしているが マズイ 	
+FIELD_DICDT.DAT	설명문	2B46D	23	『サイコキネシス』で 重力をかけ   	
+FIELD_DICDT.DAT	설명문	2B485	24	敵の走力を 一気に下げてしまう    	
+FIELD_DICDT.DAT	설명문	2B49E	22	スプーン曲げが得意らしい       	
+FIELD_DICDT.DAT	설명문	2B4B6	24	体が大きく 丸々しているのが特徴   	
+FIELD_DICDT.DAT	설명문	2B4CF	27	疫病効果のある感染液を 吐きつけてくる	
+FIELD_DICDT.DAT	설명문	2B4EB	22	昼寝が好き              	
+FIELD_DICDT.DAT	설명문	2B503	24	『地獄節』で 自分の攻撃力を大�	
+FIELD_DICDT.DAT	설명문	2B51C	4	に上る	
+FIELD_DICDT.DAT	설명문	2B521	28	植物系の体は 炎系の攻撃に極端に弱い 	
+FIELD_DICDT.DAT	설명문	2B53E	24	実は 静かな曲が得意         	
+FIELD_DICDT.DAT	설명문	2B558	26	発火しやすい気体で 体が構成されている	
+FIELD_DICDT.DAT	설명문	2B573	25	炎・風系の魔法に弱い         	
+FIELD_DICDT.DAT	설명문	2B58D	24	口からではなく 鼻から吸うと声が変わる	
+FIELD_DICDT.DAT	설명문	2B5A7	25	体をおおう甲羅を生かした 体当たりと 	
+FIELD_DICDT.DAT	설명문	2B5C1	19	ムチのようなシッポで 攻撃する    	
+FIELD_DICDT.DAT	설명문	2B5D5	24	甲羅で占いが出来るらしい       	
+FIELD_DICDT.DAT	설명문	2B5EF	26	舌に 疫病効果のある毒を持っており  	
+FIELD_DICDT.DAT	설명문	2B60A	24	顔をなめて ステータス異常を引き起こす	
+FIELD_DICDT.DAT	설명문	2B623	23	鏡で囲むと 油が取れるらしい     	
+FIELD_DICDT.DAT	설명문	2B63C	23	鋭いキバと しなりの強いシッポが武器 	
+FIELD_DICDT.DAT	설명문	2B654	25	全ての属性の 魔法に弱い       	
+FIELD_DICDT.DAT	설명문	2B66E	23	カメレオンのくせに保護色は使わない‥‥	
+FIELD_DICDT.DAT	설명문	2B687	22	全体重をかけての ボディープレスは  	
+FIELD_DICDT.DAT	설명문	2B69E	26	かなり強烈 土系の魔法に弱い     	
+FIELD_DICDT.DAT	설명문	2B6B9	20	ガラクタが 捨てられない       	
+FIELD_DICDT.DAT	설명문	2B6CF	29	行動範囲が広く 移動速度も速い    	
+FIELD_DICDT.DAT	설명문	2B6ED	24	『ボム爆撃』で 敵全体に攻撃する   	
+FIELD_DICDT.DAT	설명문	2B706	21	しっぽで 狙いを定めている      	
+FIELD_DICDT.DAT	설명문	2B71D	28	外見は 鳥というより 空飛ぶ草食恐竜 	
+FIELD_DICDT.DAT	설명문	2B73A	27	疫病効果をもつ 胞子を振り掛けてくる 	
+FIELD_DICDT.DAT	설명문	2B756	21	よく焼けば 食べられないこともない‥‥	
+FIELD_DICDT.DAT	설명문	2B76D	24	肩部に乗せた ミニツリーと一体になって	
+FIELD_DICDT.DAT	설명문	2B786	25	『グラギン』を唱える 炎系の攻撃に弱い	
+FIELD_DICDT.DAT	설명문	2B7A0	24	根元に死体が埋まっているらしい    	
+FIELD_DICDT.DAT	설명문	2B7BA	29	体内から吐き出す液で 疫病効果を与える	
+FIELD_DICDT.DAT	설명문	2B7D8	22	たまに 仲間を呼びよせる       	
+FIELD_DICDT.DAT	설명문	2B7EF	21	ツノは高く売れる           	
+FIELD_DICDT.DAT	설명문	2B806	23	ハガネのような足で 素早く くり出す 	
+FIELD_DICDT.DAT	설명문	2B81E	24	『後ろげり』で 敵に大ダメージを与える	
+FIELD_DICDT.DAT	설명문	2B837	20	クエクエと鳴かない          	
+FIELD_DICDT.DAT	설명문	2B84D	27	白い炎をまとった悪霊で 長槍に体を変え	
+FIELD_DICDT.DAT	설명문	2B869	26	敵を一撃でしとめる『即死槍』を使う  	
+FIELD_DICDT.DAT	설명문	2B884	31	『即死槍』を使う時の動きは 通常の三倍	
+FIELD_DICDT.DAT	설명문	2B8A5	28	側面に生えている触手を 高速回転させて	
+FIELD_DICDT.DAT	설명문	2B8C2	26	広範囲の敵を 混乱状態にさせる    	
+FIELD_DICDT.DAT	설명문	2B8DD	20	いつも よけいに 回りすぎてしまう‥‥	
+FIELD_DICDT.DAT	설명문	2B8F3	26	内腹部分の無数のトゲで 敵を押しつぶし	
+FIELD_DICDT.DAT	설명문	2B90E	25	移動力を 一気に下げてしまう     	
+FIELD_DICDT.DAT	설명문	2B928	21	コマより 回りが悪い         	
+FIELD_DICDT.DAT	설명문	2B93F	23	クレップの中でも 最も手強い     	
+FIELD_DICDT.DAT	설명문	2B957	23	疫病効果攻撃や タックルで攻撃してくる	
+FIELD_DICDT.DAT	설명문	2B96F	21	鳥もどきに乗っている         	
+FIELD_DICDT.DAT	설명문	2B986	24	ほ助魔法で攻撃力を上げ いっせいに  	
+FIELD_DICDT.DAT	설명문	2B99F	26	敵に襲いかかる 集団戦闘を得意とする 	
+FIELD_DICDT.DAT	설명문	2B9BA	23	タックルは本場仕込み         	
+FIELD_DICDT.DAT	설명문	2B9D3	23	手に持つ武器で攻撃してくる      	
+FIELD_DICDT.DAT	설명문	2B9EB	31	水系の魔法に強い反面 炎系の魔法に弱い	
+FIELD_DICDT.DAT	설명문	2BA0B	22	クレップ三等兵            	
+FIELD_DICDT.DAT	설명문	2BA23	24	幻の竜だけあって 炎を吐いたと思えば 	
+FIELD_DICDT.DAT	설명문	2BA3C	26	相反する吹雪の魔法を使ったりもする  	
+FIELD_DICDT.DAT	설명문	2BA57	23	体の バランスを保つのが 大変    	
+FIELD_DICDT.DAT	설명문	2BA70	22	主にクチバシで攻撃してくる 大きな羽に	
+FIELD_DICDT.DAT	설명문	2BA87	24	付着するりんぷんは 毒の効果がある  	
+FIELD_DICDT.DAT	설명문	2BAA0	25	夜 火の回りを飛んで燃える事がある  	
+FIELD_DICDT.DAT	설명문	2BABB	21	こうてつの体は ほとんど攻撃をはね返し	
+FIELD_DICDT.DAT	설명문	2BAD1	28	『爆弾投げ』は広範囲にダメージを与える	
+FIELD_DICDT.DAT	설명문	2BAEE	22	体はこうてつだが 内部はボロボロ‥‥ 	
+FIELD_DICDT.DAT	설명문	2BB06	27	分裂して 大量に仲間を増やす技や   	
+FIELD_DICDT.DAT	설명문	2BB22	23	動きを封じたりする技を使う      	
+FIELD_DICDT.DAT	설명문	2BB3A	23	夜に会っても余り恐くない       	
+FIELD_DICDT.DAT	설명문	2BB53	25	大声をだして動きを止めたり 手で叩いて	
+FIELD_DICDT.DAT	설명문	2BB6D	20	IPゲージを 戻してしまったりする  	
+FIELD_DICDT.DAT	설명문	2BB82	21	ヒジの関節がある           	
+FIELD_DICDT.DAT	설명문	2BB99	21	カラにおおわれているため 外部からの 	
+FIELD_DICDT.DAT	설명문	2BBAF	27	衝撃に強いが 炎・風系の魔法に弱い  	
+FIELD_DICDT.DAT	설명문	2BBCB	22	バター焼きにして 食べる人がいるらしい	
+FIELD_DICDT.DAT	설명문	2BBE3	25	魔法防御が低く あらゆる魔法がよく効く	
+FIELD_DICDT.DAT	설명문	2BBFD	29	特に 水系のステータス異常魔法が効果的	
+FIELD_DICDT.DAT	설명문	2BC1B	22	冬が一番おいしい           	
+FIELD_DICDT.DAT	설명문	2BC33	26	メチャクチャ狂暴化した怪魚 跳ね回ると	
+FIELD_DICDT.DAT	설명문	2BC4E	25	付属効果で相手をマヒさせてしまう   	
+FIELD_DICDT.DAT	설명문	2BC68	22	生きる化石              	
+FIELD_DICDT.DAT	설명문	2BC80	28	複数の異なる首を持つ大蛇で 回復や  	
+FIELD_DICDT.DAT	설명문	2BC9D	22	ステータス異常を起こす攻撃をする   	
+FIELD_DICDT.DAT	설명문	2BCB4	20	クレップキングが化けている      	
+FIELD_DICDT.DAT	설명문	2BCCA	26	外見は昆虫っぽい 通常立って攻撃するが	
+FIELD_DICDT.DAT	설명문	2BCE5	22	両手をついて攻撃して来ることもある  	
+FIELD_DICDT.DAT	설명문	2BCFC	25	このデータは 一匹目の戦闘時のモノ  	
+FIELD_DICDT.DAT	설명문	2BD17	24	普段はヘラヘラしているが 一度怒ると 	
+FIELD_DICDT.DAT	설명문	2BD30	23	なりふりかまわず 『トゲ飛ばし』を放つ	
+FIELD_DICDT.DAT	설명문	2BD48	8	ギターを弾く�	
+FIELD_DICDT.DAT	설명문	2BD51	14	手は動かない      	
+FIELD_DICDT.DAT	설명문	2BD61	24	体を構成している炎で敵を襲う     	
+FIELD_DICDT.DAT	설명문	2BD7A	21	『フレイムショット』が あなどれない 	
+FIELD_DICDT.DAT	설명문	2BD90	21	魂は いつもギラギラ燃えている！   	
+FIELD_DICDT.DAT	설명문	2BDA7	22	最高レベルの 防御を誇るため     	
+FIELD_DICDT.DAT	설명문	2BDBE	22	武器での攻撃は ほとんど効かない   	
+FIELD_DICDT.DAT	설명문	2BDD5	23	皮ふが角質化している         	
+FIELD_DICDT.DAT	설명문	2BDEE	26	『砂津波』や『グラギン』で      	
+FIELD_DICDT.DAT	설명문	2BE09	23	パーティ全体に 大ダメージを与える  	
+FIELD_DICDT.DAT	설명문	2BE21	20	ガラガラ鳴かない           	
+FIELD_DICDT.DAT	설명문	2BE37	26	人面魚のような容姿をした生物で    	
+FIELD_DICDT.DAT	설명문	2BE52	29	胃の奥から 疫病効果を持つ砂を吐き出す	
+FIELD_DICDT.DAT	설명문	2BE70	21	ヒーローの名前っぽい‥‥       	
+FIELD_DICDT.DAT	설명문	2BE87	23	『グラギン』や『デフロス』といった  	
+FIELD_DICDT.DAT	설명문	2BE9F	29	土系の魔法を使う 風系の魔法に弱い  	
+FIELD_DICDT.DAT	설명문	2BEBD	24	砂漠地帯には必ずいる         	
+FIELD_DICDT.DAT	설명문	2BED7	26	長距離移動をしながら 触手でブったり 	
+FIELD_DICDT.DAT	설명문	2BEF2	23	『電撃』でショックを与えてくる    	
+FIELD_DICDT.DAT	설명문	2BF0A	22	見た目はゼリーだが 食べられない   	
+FIELD_DICDT.DAT	설명문	2BF22	27	砂漠のいたる所に生息しており 水が苦手	
+FIELD_DICDT.DAT	설명문	2BF3E	24	猛毒の針を常備している        	
+FIELD_DICDT.DAT	설명문	2BF57	22	名物ジールサソリ酒‥‥        	
+FIELD_DICDT.DAT	설명문	2BF6F	28	全身が骨のみで出来ていて 分離 合体が	
+FIELD_DICDT.DAT	설명문	2BF8C	24	自由自在 魔法にもけっこう強い    	
+FIELD_DICDT.DAT	설명문	2BFA5	25	時を越えてやってきた 戦士達の魂   	
+FIELD_DICDT.DAT	설명문	2BFC0	26	『テクテク針』を使って 敵の移動力を 	
+FIELD_DICDT.DAT	설명문	2BFDB	20	下げてしまう             	
+FIELD_DICDT.DAT	설명문	2BFF0	22	針を ツボに刺すと 体にいいらしい  	
+FIELD_DICDT.DAT	설명문	2C008	26	親の木に生る実を投げ 敵を混乱させたり	
+FIELD_DICDT.DAT	설명문	2C023	21	防御力を下げたりもする        	
+FIELD_DICDT.DAT	설명문	2C039	22	樹海を守るのを サボるやつがいる   	
+FIELD_DICDT.DAT	설명문	2C051	28	大きな目から発射される『怪光線』は  	
+FIELD_DICDT.DAT	설명문	2C06E	27	直線ながらも 広範囲に威力を放つ   	
+FIELD_DICDT.DAT	설명문	2C08A	22	服装センスに 自信があるらしい    	
+FIELD_DICDT.DAT	설명문	2C0A2	27	一対の羽から出る音波で 敵を混乱させ 	
+FIELD_DICDT.DAT	설명문	2C0BE	22	HPの少ない者から狙ってくる     	
+FIELD_DICDT.DAT	설명문	2C0D5	22	羽の後ろの辺りがスィート       	
+FIELD_DICDT.DAT	설명문	2C0ED	24	大型の鉄球をぶつけて 大ダメージを  	
+FIELD_DICDT.DAT	설명문	2C106	24	与えてくる 魔法攻撃も注意      	
+FIELD_DICDT.DAT	설명문	2C11F	19	あまりグレートではない‥‥      	
+FIELD_DICDT.DAT	설명문	2C134	28	触手を高速回転させて 竜巻を起こし  	
+FIELD_DICDT.DAT	설명문	2C151	22	『ヒューネルン』を 唱えてくる    	
+FIELD_DICDT.DAT	설명문	2C168	23	たまに 道路掃除をしているらしい   	
+FIELD_DICDT.DAT	설명문	2C181	23	攻撃力を下げる技を持つ敵       	
+FIELD_DICDT.DAT	설명문	2C199	21	長いツメで 引っかいて攻撃してくる  	
+FIELD_DICDT.DAT	설명문	2C1AF	20	ゴーグルを欲しがっているらしい    	
+FIELD_DICDT.DAT	설명문	2C1C5	27	素早く行動し 『ネトネト液』を吐き  	
+FIELD_DICDT.DAT	설명문	2C1E1	23	敵の 移動力を下げる         	
+FIELD_DICDT.DAT	설명문	2C1F9	23	液は虫取りに使える          	
+FIELD_DICDT.DAT	설명문	2C212	23	攻撃力や 防御力をダウンさせる魔法を 	
+FIELD_DICDT.DAT	설명문	2C22A	20	使い攻撃してくる           	
+FIELD_DICDT.DAT	설명문	2C23F	24	競走馬っぽい名前をしている      	
+FIELD_DICDT.DAT	설명문	2C259	24	『フィオラ』を使って技を封じたり   	
+FIELD_DICDT.DAT	설명문	2C272	26	『謎掛け』をして 素早さを下げたりする	
+FIELD_DICDT.DAT	설명문	2C28D	20	イジワルなぞなぞは出さない      	
+FIELD_DICDT.DAT	설명문	2C2A3	20	敵に おおいかぶさり ダメージを与え 	
+FIELD_DICDT.DAT	설명문	2C2B8	20	IPゲージを長めにストップさせる   	
+FIELD_DICDT.DAT	설명문	2C2CD	22	ミカンの皮が主食           	
+FIELD_DICDT.DAT	설명문	2C2E5	26	触手を竜巻のように回転させて 周りに 	
+FIELD_DICDT.DAT	설명문	2C300	23	ダメージを与える 魔法にはけっこう強い	
+FIELD_DICDT.DAT	설명문	2C318	21	ミゾが数ミリしか 残ってない‥‥   	
+FIELD_DICDT.DAT	설명문	2C32F	23	MPを吸い取る 『マナキャプチャー』を	
+FIELD_DICDT.DAT	설명문	2C347	25	使う 長距離移動ができる       	
+FIELD_DICDT.DAT	설명문	2C361	23	超音速は出ない            	
+FIELD_DICDT.DAT	설명문	2C37A	21	かなりのHPがあるが 防御力が低い  	
+FIELD_DICDT.DAT	설명문	2C390	30	魔法耐性も低く 特に炎系の魔法に弱い 	
+FIELD_DICDT.DAT	설명문	2C3AF	24	一週間 はいたクツ下の臭いがする‥‥ 	
+FIELD_DICDT.DAT	설명문	2C3C9	26	『羽ばたき竜巻』で 敵の行動を    	
+FIELD_DICDT.DAT	설명문	2C3E4	19	キャンセルさせてしまう        	
+FIELD_DICDT.DAT	설명문	2C3F8	20	大がつくけど あまりえらくない    	
+FIELD_DICDT.DAT	설명문	2C40E	24	HPが かなり高く 敵の移動力を下げる	
+FIELD_DICDT.DAT	설명문	2C427	22	『ドロドロ液』を かけてくる     	
+FIELD_DICDT.DAT	설명문	2C43E	23	ドロドロ液は型取りに使える      	
+FIELD_DICDT.DAT	설명문	2C457	22	敵の血を吸い 自分のHPにしてしまう 	
+FIELD_DICDT.DAT	설명문	2C46E	29	移動距離が長く 速度が速いのが特徴  	
+FIELD_DICDT.DAT	설명문	2C48C	23	AB型の血が好物らしい        	
+FIELD_DICDT.DAT	설명문	2C4A5	26	攻撃力が低く 移動距離も短いが    	
+FIELD_DICDT.DAT	설명문	2C4C0	27	毒液攻撃は 確実に 相手に毒を与える 	
+FIELD_DICDT.DAT	설명문	2C4DC	20	けんしょう金は かかってない     	
+FIELD_DICDT.DAT	설명문	2C4F2	23	フキツな大鳥 羽をまとめ投げする   	
+FIELD_DICDT.DAT	설명문	2C50A	22	『ダーツフェザー』などを使い 攻撃する	
+FIELD_DICDT.DAT	설명문	2C521	21	態度が でかい            	
+FIELD_DICDT.DAT	설명문	2C538	23	トカゲが吐く炎のブレスや 攻撃力の高い	
+FIELD_DICDT.DAT	설명문	2C550	28	武器攻撃が特徴 水系の魔法に強い   	
+FIELD_DICDT.DAT	설명문	2C56D	20	シッポは切れない           	
+FIELD_DICDT.DAT	설명문	2C583	25	体のトゲで攻撃し『カエルの子守り歌』で	
+FIELD_DICDT.DAT	설명문	2C59D	23	さい眠効果を掛けたりする       	
+FIELD_DICDT.DAT	설명문	2C5B5	20	まれに サーカスで見かける      	
+FIELD_DICDT.DAT	설명문	2C5CB	21	産みたての卵を 敵にぶつけて     	
+FIELD_DICDT.DAT	설명문	2C5E1	23	あらゆるステータス異常を引き起こす  	
+FIELD_DICDT.DAT	설명문	2C5F9	22	アパートの二階では 飼えない‥‥   	
+FIELD_DICDT.DAT	설명문	2C611	25	HPがやや多いが 移動速度が遅い   	
+FIELD_DICDT.DAT	설명문	2C62B	25	魔法よりも 打撃による攻撃が効果的  	
+FIELD_DICDT.DAT	설명문	2C645	23	遺跡を壊してよく怒られる       	
+FIELD_DICDT.DAT	설명문	2C65E	26	欠点らしい欠点はない 手に持つ槍で  	
+FIELD_DICDT.DAT	설명문	2C679	26	猛毒を与えてくる 非常に素早い    	
+FIELD_DICDT.DAT	설명문	2C694	26	槍で生意気な子供をつつくのが趣味らしい	
+FIELD_DICDT.DAT	설명문	2C6B0	27	睡眠効果を与える『まどろみ斬り』などの	
+FIELD_DICDT.DAT	설명문	2C6CC	27	打撃攻撃が中心 炎系の魔法に弱い   	
+FIELD_DICDT.DAT	설명문	2C6E8	22	煮込むとうまいダシが取れる      	
+FIELD_DICDT.DAT	설명문	2C700	27	恐い形相をした木のお化けで 頭上に咲く	
+FIELD_DICDT.DAT	설명문	2C71C	24	ブキミな花の『フラワービーム』が強力 	
+FIELD_DICDT.DAT	설명문	2C735	22	花の手入れを かかさない       	
+FIELD_DICDT.DAT	설명문	2C74D	26	自ら放電する『ショックボム』は広範囲に	
+FIELD_DICDT.DAT	설명문	2C768	24	効果がある上 与えるダメージが大きい 	
+FIELD_DICDT.DAT	설명문	2C781	21	おふろで 泥を落としたがっているらしい	
+FIELD_DICDT.DAT	설명문	2C798	23	MPを奪う『マナドレイン』を使い   	
+FIELD_DICDT.DAT	설명문	2C7B0	24	更にHPを奪う『ライフドレイン』も使う	
+FIELD_DICDT.DAT	설명문	2C7C9	24	世界征服が夢             	
+FIELD_DICDT.DAT	설명문	2C7E3	25	全身から発する電撃は パーティ全体に 	
+FIELD_DICDT.DAT	설명문	2C7FD	22	ダメージを与える ぎじえさの攻撃も注意	
+FIELD_DICDT.DAT	설명문	2C814	21	塩をかけても溶けない         	
+FIELD_DICDT.DAT	설명문	2C82B	23	本体より 敵を誘き寄せて攻撃する   	
+FIELD_DICDT.DAT	설명문	2C843	21	ぎじえさの方が 攻撃力が高い     	
+FIELD_DICDT.DAT	설명문	2C859	23	男は絶対 ぎじえさに 引っかかる   	
+FIELD_DICDT.DAT	설명문	2C872	23	打撃による攻撃が中心 敵めがけて投げる	
+FIELD_DICDT.DAT	설명문	2C88A	23	『ニャルモット投げ』は すごく速い  	
+FIELD_DICDT.DAT	설명문	2C8A2	22	しかし 直球しか 投げられない‥‥  	
+FIELD_DICDT.DAT	설명문	2C8BA	27	羽を投げ付けて 技封じと魔封じを狙う 	
+FIELD_DICDT.DAT	설명문	2C8D6	20	徐々に 敵のHPを けずる攻撃をする 	
+FIELD_DICDT.DAT	설명문	2C8EB	20	羽はペンにもなる           	
+FIELD_DICDT.DAT	설명문	2C901	23	鋭いキバを光らせて 連続してカミツく 	
+FIELD_DICDT.DAT	설명문	2C919	23	全ての魔法攻撃に弱い         	
+FIELD_DICDT.DAT	설명문	2C931	23	残り物は大嫌い            	
+FIELD_DICDT.DAT	설명문	2C94A	24	低空をゆっくり飛び 胞子をばらまいて 	
+FIELD_DICDT.DAT	설명문	2C963	28	毒効果を与える 土系魔法に強い    	
+FIELD_DICDT.DAT	설명문	2C980	21	高く飛べない             	
+FIELD_DICDT.DAT	설명문	2C997	23	いつも動き回っていて 落ち着きがない 	
+FIELD_DICDT.DAT	설명문	2C9AF	21	自ら産んだ卵を敵にぶつけ 攻撃する  	
+FIELD_DICDT.DAT	설명문	2C9C5	23	自ら 絶減の道を歩んでいる‥‥    	
+FIELD_DICDT.DAT	설명문	2C9DE	29	全属性の魔法防御が高く 特に土系に強い	
+FIELD_DICDT.DAT	설명문	2C9FC	27	全体に効果がある『ハニワブレス』は強力	
+FIELD_DICDT.DAT	설명문	2CA18	22	関節はジョイント式になっている    	
+FIELD_DICDT.DAT	설명문	2CA30	22	敵を一ヶ所に集めて 攻撃してくる   	
+FIELD_DICDT.DAT	설명문	2CA47	25	全身は 固い金属で作られている    	
+FIELD_DICDT.DAT	설명문	2CA61	20	シッポがハンマー 頭がゴイル‥‥   	
+FIELD_DICDT.DAT	설명문	2CA77	27	小さな体を素早く回し 敵の目を回す等 	
+FIELD_DICDT.DAT	설명문	2CA93	22	頭部を狙った攻撃をしてくる      	
+FIELD_DICDT.DAT	설명문	2CAAA	24	頭部への一発はヘビー級        	
+FIELD_DICDT.DAT	설명문	2CAC4	26	重い体重を活かして 地面を揺らし   	
+FIELD_DICDT.DAT	설명문	2CADF	25	パーティ全体の 移動力を下げてしまう 	
+FIELD_DICDT.DAT	설명문	2CAF9	21	実は 寒がり‥‥           	
+FIELD_DICDT.DAT	설명문	2CB10	25	『ヴァンフレア』など 攻撃魔法を多用し	
+FIELD_DICDT.DAT	설명문	2CB2A	24	『すりぬけ』による 魔封じをも掛ける 	
+FIELD_DICDT.DAT	설명문	2CB43	21	犬が 大キライ            	
+FIELD_DICDT.DAT	설명문	2CB5A	30	移動速度が速くHPも多め 『混乱羽』で	
+FIELD_DICDT.DAT	설명문	2CB79	22	ステータス異常を狙ってくる      	
+FIELD_DICDT.DAT	설명문	2CB90	20	色さいセンスは ばつぐん       	
+FIELD_DICDT.DAT	설명문	2CBA6	22	攻撃力は飛びぬけて高くはないが    	
+FIELD_DICDT.DAT	설명문	2CBBD	28	防御力が非常に高い 炎系の魔法に弱い 	
+FIELD_DICDT.DAT	설명문	2CBDA	19	スパーリングパートナーにうってつけかも	
+FIELD_DICDT.DAT	설명문	2CBEF	27	『滑空アタック』は 直線上の敵 全てに	
+FIELD_DICDT.DAT	설명문	2CC0B	26	効果がある 魔法全般に弱い      	
+FIELD_DICDT.DAT	설명문	2CC26	21	キリモミ飛行は できない       	
+FIELD_DICDT.DAT	설명문	2CC3D	26	こん棒と 口からはみ出した毒牙が武器 	
+FIELD_DICDT.DAT	설명문	2CC58	27	魔法耐性が高く 炎の息を吐いてくる  	
+FIELD_DICDT.DAT	설명문	2CC74	21	こんぼうの先にクギを打っている    	
+FIELD_DICDT.DAT	설명문	2CC8B	28	分裂して 一度に三体も増えるのが特徴 	
+FIELD_DICDT.DAT	설명문	2CCA8	22	防御力を下げるガスを使う       	
+FIELD_DICDT.DAT	설명문	2CCBF	19	さわると プルリンとする       	
+FIELD_DICDT.DAT	설명문	2CCD4	23	小がらな体をしているが 体当たりして 	
+FIELD_DICDT.DAT	설명문	2CCEC	23	敵を跳ね飛ばす技を持っている     	
+FIELD_DICDT.DAT	설명문	2CD04	21	右脳がクサっている‥‥        	
+FIELD_DICDT.DAT	설명문	2CD1B	23	武器による攻撃は あまり効果がない  	
+FIELD_DICDT.DAT	설명문	2CD33	29	分裂して増殖する 炎・風系の魔法に弱い	
+FIELD_DICDT.DAT	설명문	2CD51	22	ドブ川の嫌な匂いがする        	
+FIELD_DICDT.DAT	설명문	2CD69	27	移動距離が長く IPゲージの上昇が速い	
+FIELD_DICDT.DAT	설명문	2CD85	29	『超音波』で睡眠効果を与えてくる   	
+FIELD_DICDT.DAT	설명문	2CDA3	21	自分も眠くならないよう ガンバっている	
+FIELD_DICDT.DAT	설명문	2CDBA	25	直線上の敵に 強大なダメージを与える 	
+FIELD_DICDT.DAT	설명문	2CDD4	28	『炎のとおぼえ』を使う 水系魔法に弱い	
+FIELD_DICDT.DAT	설명문	2CDF1	21	放し飼いにされている         	
+FIELD_DICDT.DAT	설명문	2CE08	21	自慢のギターで 怒りのメロディーを  	
+FIELD_DICDT.DAT	설명문	2CE1E	24	かき鳴らし 敵を混乱状態にする    	
+FIELD_DICDT.DAT	설명문	2CE37	24	皆 同じ楽器しか弾けない       	
+FIELD_DICDT.DAT	설명문	2CE51	28	炎を扱うせいか 水系魔法に極端に弱い 	
+FIELD_DICDT.DAT	설명문	2CE6E	22	激しい炎で 敵にダメージを与える   	
+FIELD_DICDT.DAT	설명문	2CE85	21	エサを与えないで下さい        	
+FIELD_DICDT.DAT	설명문	2CE9C	28	外見を崩して敵を襲う 青白い高温の炎は	
+FIELD_DICDT.DAT	설명문	2CEB9	28	骨までも焼き尽くす 水・風系魔法に弱い	
+FIELD_DICDT.DAT	설명문	2CED6	22	飼うと家が焼ける           	
+FIELD_DICDT.DAT	설명문	2CEEE	27	寒い地方の山奥に 集団で生息している 	
+FIELD_DICDT.DAT	설명문	2CF0A	27	力が強く 頭上から雪玉を叩き付けてくる	
+FIELD_DICDT.DAT	설명문	2CF26	23	雪合戦は 命がけ           	
+FIELD_DICDT.DAT	설명문	2CF3F	25	強力な攻撃魔法を多用し 攻撃してくる 	
+FIELD_DICDT.DAT	설명문	2CF59	26	『死のゆうわく』は即死効果がある   	
+FIELD_DICDT.DAT	설명문	2CF74	22	何をしに来たのか 忘れてしまった   	
+FIELD_DICDT.DAT	설명문	2CF8C	27	固い溶岩で出来ており その腕力を活かし	
+FIELD_DICDT.DAT	설명문	2CFA8	24	鉄球をぶつけたり 岩石を投げたりする 	
+FIELD_DICDT.DAT	설명문	2CFC1	20	とても 暑がり            	
+FIELD_DICDT.DAT	설명문	2CFD7	22	自分の攻撃力に自信がないためか    	
+FIELD_DICDT.DAT	설명문	2CFEE	23	敵の防御力を必死に下げようとする   	
+FIELD_DICDT.DAT	설명문	2D006	22	抜け毛で悩んでいる‥‥        	
+FIELD_DICDT.DAT	설명문	2D01E	25	長距離を移動できるので 遠くにいる敵を	
+FIELD_DICDT.DAT	설명문	2D038	21	攻撃対象にする            	
+FIELD_DICDT.DAT	설명문	2D04E	22	ナナの部屋に 住もうとしている    	
+FIELD_DICDT.DAT	설명문	2D066	24	防御力は かなり高め 敵の頭上で踊る 	
+FIELD_DICDT.DAT	설명문	2D07F	25	『ヘッドダンス』は 混乱の効果がある 	
+FIELD_DICDT.DAT	설명문	2D099	19	むすとけっこうウマイ         	
+FIELD_DICDT.DAT	설명문	2D0AE	27	攻撃力が高いわりに 炎系魔法を多用する	
+FIELD_DICDT.DAT	설명문	2D0CA	26	水系の武器や魔法に弱い        	
+FIELD_DICDT.DAT	설명문	2D0E5	25	頭文字の『マッ』に誇りをもっている‥‥	
+FIELD_DICDT.DAT	설명문	2D100	22	騎乗したままで 敵に突撃をしかける  	
+FIELD_DICDT.DAT	설명문	2D117	21	『マッドタックル』で攻撃してくる   	
+FIELD_DICDT.DAT	설명문	2D12D	21	騎兵になりそびれてグレた       	
+FIELD_DICDT.DAT	설명문	2D144	27	広範囲に効く 強力魔法ばかりを    	
+FIELD_DICDT.DAT	설명문	2D160	26	多用してくる上に 意外と素早い    	
+FIELD_DICDT.DAT	설명문	2D17B	23	運動は一切ダメ！           	
+FIELD_DICDT.DAT	설명문	2D194	25	特しゅ技の『暴れまわり』で 暴れまくり	
+FIELD_DICDT.DAT	설명문	2D1AE	23	辺り一面の敵にダメージを与える    	
+FIELD_DICDT.DAT	설명문	2D1C6	23	暴れた後は 気分ソウカイ！      	
+FIELD_DICDT.DAT	설명문	2D1DF	27	でん部より出る『糸玉』は 命中すると 	
+FIELD_DICDT.DAT	설명문	2D1FB	24	IPゲージを 一時的に停止させてしまう	
+FIELD_DICDT.DAT	설명문	2D214	23	マルナ街道にのみ生息         	
+FIELD_DICDT.DAT	설명문	2D22D	25	姿を消す『インビジブル』を多用する  	
+FIELD_DICDT.DAT	설명문	2D247	23	他には『ヴァンフレイム』などを使う  	
+FIELD_DICDT.DAT	설명문	2D25F	19	メスしかいない‥‥          	
+FIELD_DICDT.DAT	설명문	2D274	26	口から吐く『麻痺液』で 敵をしびれさせ	
+FIELD_DICDT.DAT	설명문	2D28F	23	体当たりによる攻撃を 仕掛けてくる  	
+FIELD_DICDT.DAT	설명문	2D2A7	21	医者が よくつかまえにいく      	
+FIELD_DICDT.DAT	설명문	2D2BE	20	メタルなだけあって 防御が固く    	
+FIELD_DICDT.DAT	설명문	2D2D3	23	更に 魔法防御も 優れている     	
+FIELD_DICDT.DAT	설명문	2D2EB	24	飛ぶと金属粉が落ちる         	
+FIELD_DICDT.DAT	설명문	2D305	24	幻想的な踊りで 敵のHPを奪い    	
+FIELD_DICDT.DAT	설명문	2D31E	24	歌声は 魔力を封じてしまう      	
+FIELD_DICDT.DAT	설명문	2D337	21	プロのダンサーを夢見てるらしい    	
+FIELD_DICDT.DAT	설명문	2D34E	30	移動距離は短いが 『木の実爆弾』で  	
+FIELD_DICDT.DAT	설명문	2D36D	24	広範囲の敵に 大ダメージを与える   	
+FIELD_DICDT.DAT	설명문	2D386	24	拳法の特訓に使えるらしい       	
+FIELD_DICDT.DAT	설명문	2D3A0	25	攻撃力・防御力共に低いが 体から出す 	
+FIELD_DICDT.DAT	설명문	2D3BA	22	『すいみんガス』で 敵を眠らせる   	
+FIELD_DICDT.DAT	설명문	2D3D1	24	不眠症の人に喜ばれる         	
+FIELD_DICDT.DAT	설명문	2D3EB	25	地面をバウンドしながら移動し 滑空して	
+FIELD_DICDT.DAT	설명문	2D405	25	敵に 大量の爆弾を投下する      	
+FIELD_DICDT.DAT	설명문	2D41F	21	実はバランスが悪い          	
+FIELD_DICDT.DAT	설명문	2D436	23	毒効果のあるガスを まき散らして   	
+FIELD_DICDT.DAT	설명문	2D44E	26	敵をいかくする 土系の魔法に多少弱い 	
+FIELD_DICDT.DAT	설명문	2D469	20	食べると コリコリしてるらしい    	
+FIELD_DICDT.DAT	설명문	2D47F	24	双方の足を使った『ツインタイフーン』は	
+FIELD_DICDT.DAT	설명문	2D498	27	かなり強烈 風属性の技を好んで使う  	
+FIELD_DICDT.DAT	설명문	2D4B4	20	やっぱりスミは吐かない‥‥      	
+FIELD_DICDT.DAT	설명문	2D4CA	24	ヤリ攻撃の他 毒を放ったり 電流で  	
+FIELD_DICDT.DAT	설명문	2D4E3	20	敵に ショックを与える        	
+FIELD_DICDT.DAT	설명문	2D4F8	24	電源は 自家発電しているらしい    	
+FIELD_DICDT.DAT	설명문	2D512	27	『狂った踊り』でトリップし 仲間全員の	
+FIELD_DICDT.DAT	설명문	2D52E	22	攻撃力を 引き上げる         	
+FIELD_DICDT.DAT	설명문	2D545	24	ダンスは 自分が世界一だと思っている 	
+FIELD_DICDT.DAT	설명문	2D55F	24	使ってくる武器は斧とブーメラン 特に 	
+FIELD_DICDT.DAT	설명문	2D578	27	斧での攻撃が強い 炎・土系の魔法に弱い	
+FIELD_DICDT.DAT	설명문	2D594	25	背中の荷物が重く 肩こりがひどいらしい	
+FIELD_DICDT.DAT	설명문	2D5AF	25	基本的に 防御力が高いにも関わらず  	
+FIELD_DICDT.DAT	설명문	2D5C9	23	さらに 魔法を使って 防御を固めてくる	
+FIELD_DICDT.DAT	설명문	2D5E1	23	道路工事を よくしているらしい    	
+FIELD_DICDT.DAT	설명문	2D5FA	23	攻撃力は高くないが パーティ全体に  	
+FIELD_DICDT.DAT	설명문	2D612	27	ダメージを与える『火炎玉』に注意   	
+FIELD_DICDT.DAT	설명문	2D62E	24	着地に失敗すると壊れる        	
+FIELD_DICDT.DAT	설명문	2D648	25	右に出る者がないほど 魔法防御が高い 	
+FIELD_DICDT.DAT	설명문	2D662	23	通常攻撃も 大ダメージを与えてくる  	
+FIELD_DICDT.DAT	설명문	2D67A	23	体の風化が 進んでいる‥‥      	
+FIELD_MTOUT.DAT	카테고리명	1AFF0	9	美術設定1	
+FIELD_MTOUT.DAT	카테고리명	1AFFA	9	美術設定2	
+FIELD_MTOUT.DAT	카테고리명	1B004	9	モンスター設定	
+FIELD_MTOUT.DAT	카테고리명	1B00E	11	キャラクター設定1	
+FIELD_MTOUT.DAT	카테고리명	1B01A	11	キャラクター設定2	
+FIELD_MTOUT.DAT	카테고리명	1B026	11	キャラクター設定3	
