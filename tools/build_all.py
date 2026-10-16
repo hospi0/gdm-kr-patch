@@ -35,6 +35,12 @@ STEPS = [
     #   새로 쓰므로 먼저 돌면 전투 설명문이 통째로 사라진다
     ('전투 설명문', ['tools/build_batle.py']),
     ('전투 적·기술명', ['tools/build_mdat.py']),
+    ('  └ 적 반각 이름(상태창)', ['tools/build_mdat_half.py']),   # build_mdat **뒤**
+    # 전투·결과 화면 구운 그림(ENDW 머리·MGDAT 크롬·BBG 이름표) — `build_batle`·`build_mdat` **뒤**(BBG 를 그 결과 위에 고침)
+    ('전투 그림', ['tools/build_battle_gfx.py']),
+    ('결과 화면 타일 글자', ['tools/build_endw_tiles.py']),   # build_battle_gfx 뒤 — 같은 ENDW.DAT 의 다른 구간
+    # 2026-10-16 전투 BBG 글 묶음: 반각 이름(8×8 한글 2바이트) + 전각 이름 온전히 — build_batle·propagate·build_battle_gfx **뒤**(같은 BBG)
+    ('전투 반각 한글', ['tools/build_bbg_half.py']),
     ('시스템메뉴 v2', ['tools/build_sysmenu2.py']),
     ('반각 메뉴', ['tools/build_halfmenu.py']),
     ('설정 화면', ['tools/build_config.py']),
@@ -45,10 +51,24 @@ STEPS = [
     ('도감 예/아니오 상자', ['tools/build_dicdt_gfx.py']),
     ('FACE2/DORAM', ['tools/patch_extra.py']),
     ('필드 장비표', ['tools/build_wdata.py']),
+    ('필드 반각 한글(WDATA)', ['tools/build_wdata_half.py']),   # build_wdata(전각 제자리) **뒤**
     # ★`patch_extra` **뒤**에 둔다 — DORAM.BIN·FACE2.DAT 를 둘 다 건드린다
     ('예/아니오 상자', ['tools/build_yesno.py']),
     # 명장면 목록 — 허프만 스트림 재인코딩(`SVRDT.DAT` 는 다른 빌더가 안 건드린다)
     ('명장면 목록', ['tools/build_scene.py']),
+    # 그림(압축) — 다른 빌더가 안 건드리는 파일: BIN_TTL.DAT(타이틀 로고·부제·메뉴), FIELD_SVRBG.DAT(명장면 배너)
+    ('타이틀 그림', ['tools/build_title_gfx.py']),
+    ('명장면 배너', ['tools/build_scene_banner.py']),
+    # 금판 배너 4개 — `build_museum`·`build_mtout_gfx`·`build_dicdt_gfx` **뒤**(MTOUT·DICDT 를 그 결과 위에 고침)
+    ('박물관 배너', ['tools/build_banners.py']),
+    # 몬스터 도감 상세 페이지 능력치 라벨(구운 NBG2 타일) — `build_banners` **뒤**(같은 DICDT)
+    ('도감 페이지 라벨', ['tools/build_dicdt_page.py']),
+    # ★맨 끝 — FDATA(font_apply 결과) 안에 8×8 한글 훅 블롭 + 메뉴 5모듈·BATLE.BIN 훅 + 메뉴 라벨. 그 모듈들을 만지는 빌더(시스템메뉴·설정·patch_extra 등) **뒤**
+    ('반각 8×8 한글 훅', ['tools/build_half_hook.py']),
+    ('  └ 훅 검산', ['tools/test_half_hook.py']),
+    # ★맨 끝 — 상영관 드라마 자막: E804.MDT(대사 빌더 결과) 적재 창을 늘려 블롭을 싣고(파일이 커짐 → build_iso 가 트랙 끝으로 옮김) + SYS_IP.BIN(IP 부트스트랩)
+    ('드라마 자막', ['tools/build_drama.py']),
+    ('  └ 자막 vhook 검산', ['tools/test_drama.py']),
 ]
 
 CHECKS = [

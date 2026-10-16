@@ -35,12 +35,13 @@ import sys
 sys.path.insert(0, 'tools')
 import gsprite as G
 import gsprite_comp as GC
-from hangul_glyph import GOTHIC_BOLD, render
+from hangul_glyph import render
+from font_apply import GALMURI11, SIZE as F_SIZE, THR as F_THR, PUNCT_DY
 
 SRC, DST = 'work/dm_all', 'work/build'
 FN = 'FIELD_MTOUT.DAT'
 BLK = 0x13E00
-SIZE, THR = 14, 96                       # font_apply 와 같은 조합
+SIZE, THR = F_SIZE, F_THR                 # ★font_apply 와 «같은 값을 가져다» 씀(글꼴 바꿀 때 어긋나지 않게 — 2026-10-14 갈무리11 로 바꾼 뒤 선택 막대·예/아니오가 나눔고딕으로 남아 어긋남)
 
 STRIP_A, STRIP_B, STEP = 0x5D00, 0x9300, 0x900
 BOX = (0x2D00, 0x4500)
@@ -58,8 +59,9 @@ STRIPS = [
 
 
 def glyph(ch):
-    """16행 × 16비트 (좌열이 상위비트)"""
-    return render(ch, GOTHIC_BOLD, SIZE, THR)
+    """16행 × 16비트 (좌열이 상위비트) — 글꼴 데이터(font_apply)와 «똑같은» 그림.
+    굵게 하지 않음: 다른 종료 창·메뉴 글자는 게임이 가는 획 그대로 찍는다(2026-10-14 사용자 «통일»)."""
+    return render(ch, GALMURI11, SIZE, THR, dy=PUNCT_DY.get(ch, 0))
 
 
 def cell_mask(buf, off, w, x0, ink):
@@ -78,15 +80,16 @@ def draw_strips(blk):
         if dmask:
             cells.append(dmask)
         W = len(cells) * 16
+        X0 = 144 - W if k == 1 else 0                # ★2번(美術設定2)만 오른쪽 정렬 — 화면에서도 오른쪽(원본 띠 그대로, 영문 ALIGN_RIGHT={1})
         for y in range(16):
             for x in range(144):
                 on = 0
-                if x < W:
-                    on = cells[x // 16][y][x % 16]
+                if X0 <= x < X0 + W:
+                    on = cells[(x - X0) // 16][y][(x - X0) % 16]
                 blk[a + y * 144 + x] = INK_A if on else 0x00
-                blk[b + y * 144 + x] = 0x00 if (on or x >= W) else BAR_B
+                blk[b + y * 144 + x] = 0x00 if (on or not X0 <= x < X0 + W) else BAR_B
         # 선택 막대의 위·아래 실선(원본과 같은 규칙)
-        for x in range(W):
+        for x in range(X0, X0 + W):
             blk[b + 0 * 144 + x] = BAR_B
             blk[b + 15 * 144 + x] = BAR_B
 

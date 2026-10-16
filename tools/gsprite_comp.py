@@ -180,10 +180,15 @@ def compress(data, table, mode, rle_limit):
 
     while not e.eof:
         e.save()
+        p0 = e.pos
         is_zeros, cnt = e.test_next()
         if is_zeros:
             e.encode_zeros(cnt)
         else:
+            # ★끝까지 가는 데이터 구간은 «남은 니블 전부» — test_next 가 끝을 넘겨 읽어 1개 모자라게 세는 경우가 있다
+            #   (BBG 이름표 XOR 블록 `…7700`: 마지막 1바이트 빠짐, 2026-10-14)
+            if e.eof:
+                cnt = len(e.src) * 2 - p0
             e.restore()
             e.encode_data(cnt)
 

@@ -98,7 +98,8 @@ def main():
     body = bytearray()
     wide = 0
     for s in rows:
-        ko = tr.get(s.rstrip(), s.rstrip())
+        from punct import squeeze      # 공백 삭제를 «채우기 전»에 — 인코더에서 빠지면 폭이 모자라 잔상(2026-10-14)
+        ko = squeeze(tr.get(s.rstrip(), s.rstrip()))
         if len(ko) > len(s):
             wide += 1
             print('  ★폭 초과 %d>%d : %s' % (len(ko), len(s), ko))

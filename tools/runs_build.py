@@ -47,6 +47,8 @@ def load_maps():
 
 
 def encode(s, rev, ko):
+    from punct import squeeze          # 문장부호 뒤 공백 삭제(전프로젝트 규칙)
+    s = squeeze(s)
     out = bytearray()
     for ch in s:
         c = ko.get(ch, rev.get(ch))

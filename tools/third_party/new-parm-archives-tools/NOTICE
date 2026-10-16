@@ -1,0 +1,26 @@
+New Parm Archives — Grandia: Digital Museum English Translation Patch
+====================================================================
+
+The MIT License in LICENSE covers only the ORIGINAL content authored for this
+repository (this README, documentation, and the issue templates).
+
+It does NOT relicense, and this project claims no rights over, the following:
+
+* "Grandia" and "Grandia: Digital Museum" and all game assets, text, characters,
+  and audiovisual content are the property of their respective rights holders
+  (Game Arts / ESP / Sega and successors). This repository contains none of that
+  data. The distributed .xdelta3 file is a binary DIFF that is meaningless without,
+  and produces output only from, a copy of the game you already own.
+
+* The reverse-engineering methods, file-format documentation, and tooling this
+  project's build pipeline relies on originate with TrekkiesUnite118's Grandia
+  translation work (https://github.com/TrekkiesUnite118/GrandiaTranslation).
+  Those tools are not included or redistributed here; they are credited with
+  gratitude. See that project for its own terms.
+
+* English terminology follows the official PlayStation Grandia localization for
+  consistency. Proper nouns and short item/skill/enemy names are used only as
+  terminology and carry their own upstream rights.
+
+If you are a rights holder with a concern, please open an issue and it will be
+addressed promptly.

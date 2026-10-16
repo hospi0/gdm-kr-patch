@@ -1,0 +1,18 @@
+# Never commit game data, disc images, savestates, or the fetched upstream tools.
+*.bin
+*.cue
+*.iso
+*.chd
+*.img
+*.savestate
+input/
+output/
+work/
+vendor/
+tools/vendor/
+__pycache__/
+*.pyc
+target/
+*.class
+.DS_Store
+*.swp

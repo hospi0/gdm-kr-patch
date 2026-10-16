@@ -100,6 +100,8 @@ FIRST_TEXT_SEC = 3
 
 
 def encode(s, ko=None):
+    from punct import squeeze          # 문장부호 뒤 공백 삭제(전프로젝트 규칙)
+    s = squeeze(s)
     ko = ko or {}
     out = bytearray()
     for ch in s:
@@ -154,6 +156,8 @@ def decode_with_vars(raw):
 def encode_with_vars(s, ko=None):
     """`decode_with_vars` 의 역. `{03:22}` 토큰을 그대로 3바이트로 되돌린다."""
     import re
+    from punct import squeeze          # 조각으로 나누기 전에 전체에(토큰 뒤 조각에 한글이 없어도 빠지지 않게)
+    s = squeeze(s)
     out = bytearray()
     pos = 0
     for mo in re.finditer(r'\{([0-9A-Fa-f]{2}):([0-9A-Fa-f]{2})\}', s):

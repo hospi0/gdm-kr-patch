@@ -16,13 +16,23 @@ import config_ko as K
 SRC, DST, NAME = 'work/dm', 'work/build', 'FIELD_CNFIG.BIN'
 
 
+def enc(t):
+    """`` 뒤는 반각 모드 — ASCII 를 바이트 그대로(반각 글리프 = 바이트 − 0x20)."""
+    full, _, half = t.partition('')
+    e = S2.encode_ko(full)
+    if _:
+        assert all(0x20 <= ord(c) < 0x7F for c in half), half
+        e += b'' + half.encode('ascii')
+    return e
+
+
 def main():
     src = open(os.path.join(SRC, NAME), 'rb').read()
     base = os.path.join(DST, NAME)
     d = bytearray(open(base if os.path.exists(base) else os.path.join(SRC, NAME), 'rb').read())
     ok = fail = 0
     for off, slot, ko_text in K.CONFIG:
-        e = S2.encode_ko(ko_text)
+        e = enc(ko_text)
         if len(e) + 1 <= slot:
             e = b'\x04' + e                     # 전각 복귀 명시(여유 있을 때)
         elif len(e) <= slot:
@@ -46,7 +56,7 @@ def main():
     # 되읽기
     bad = 0
     for off, slot, ko_text in K.CONFIG:
-        e = S2.encode_ko(ko_text)
+        e = enc(ko_text)
         pre = b'\x04' if len(e) + 1 <= slot else b''
         want = pre + e + b'\x20' * (slot - len(pre) - len(e))
         if newb[off:off + slot] != want:

@@ -7,10 +7,14 @@
    (silmirage-kr-patch `cdrom_ecc.py` 의 실측 교훈).
 
 `work/build/` 안의 `<DIR>_<NAME>` 파일을 ISO 경로 `/DIR/NAME` 으로 되돌려 써넣는다.
-크기가 원본과 다르면 실패시킨다(제자리 교체만 지원).
+크기가 원본과 같으면 제자리 교체. ★2026-10-16 확장:
+  · 원본보다 «커진» 파일 → 트랙 끝에 새 섹터(동기·MSF 머리·EDC/ECC)로 붙이고 디렉터리 기록(LBA·크기, LE/BE)과
+    PVD 볼륨 크기를 고친다(드라마 자막 블롭을 실은 E804.MDT). 원래 자리 섹터는 그대로 둔다.
+  · `SYS_IP.BIN`(32 KB) → 시스템 영역 LBA 0‥15(IP.BIN — 드라마 자막 부트스트랩).
 """
 import os
 import shutil
+import struct
 import subprocess
 import sys
 
@@ -21,8 +25,10 @@ import iso9660 as I
 # ★무수정 원본. 2026-08-08에 C:/claude/roms/ss/… 사본이 사라져 F드라이브 하위
 #   폴더의 사본으로 옮겼다. 이 파일은 `work/dm` 103개와 바이트 전량 일치를 확인한
 #   진짜 원본이다 — **절대 여기에 빌드 결과를 쓰지 말 것**(아래 assert 로 방어).
-SRC = (r'F:/hospi/roms/ss roms/Grandia - Digital Museum (Japan) (Rev A) (10M)'
-       r'/Grandia - Digital Museum (Japan) (Rev A) (10M)'
+# 2026-10-16: 원본이 다시 C:/claude/roms/ss/ 바로 아래로 옮겨짐(md5 59b19105… 같음).
+# 2026-10-14: F: 이중 폴더 사본이 사라져 사용자가 C:/claude/roms/ss/완료/… 에 원본을 둠(md5 59b19105…,
+#   `work/dm` 104개와 바이트 일치 확인). ⚠️`work/dm_all` 의 글 파일 76개는 패치 ISO 에서 뽑힌 것이라 원본 판정에 쓰지 말 것.
+SRC = (r'C:/claude/roms/ss/Grandia - Digital Museum (Japan) (Rev A) (10M)'
        r'/Grandia - Digital Museum (Japan) (Rev A) (10M) (Track 1).bin')
 DSTDIR = (r'F:/hospi/roms/ss roms/Grandia - Digital Museum (Japan) (Rev A) (10M)')
 DSTNAME = 'Grandia - Digital Museum (Japan) (Rev A) (10M) (Track 1).bin'
@@ -36,7 +42,44 @@ def iso_path(fname):
     return '/%s/%s' % (d, n)
 
 
+def find_record(f, path):
+    """ISO 경로 → 그 디렉터리 기록의 트랙 파일 절대 오프셋(기록은 섹터를 넘지 않는다)"""
+    def rd(lba, size):
+        out = []
+        for k in range((size + 2047) // 2048):
+            f.seek((lba + k) * I.SECTOR + I.DATA_OFF); out.append(((lba + k), f.read(2048)))
+        return out
+    f.seek(16 * I.SECTOR + I.DATA_OFF); pvd = f.read(2048)
+    lba, size = struct.unpack_from('<I', pvd, 156 + 2)[0], struct.unpack_from('<I', pvd, 156 + 10)[0]
+    parts = [x for x in path.strip('/').split('/')]
+    for depth, name in enumerate(parts):
+        last = depth == len(parts) - 1
+        hit = None
+        for slba, sec in rd(lba, size):
+            pos = 0
+            while pos < 2048 and sec[pos]:
+                rl = sec[pos]; nl = sec[pos + 32]
+                nm = sec[pos + 33:pos + 33 + nl].decode('ascii', 'replace').split(';')[0]
+                if nm == name:
+                    hit = (slba, pos, struct.unpack_from('<I', sec, pos + 2)[0], struct.unpack_from('<I', sec, pos + 10)[0])
+                    break
+                pos += rl
+            if hit:
+                break
+        if not hit:
+            raise SystemExit('디렉터리 기록 없음: %s' % path)
+        if last:
+            return hit[0] * I.SECTOR + I.DATA_OFF + hit[1]
+        lba, size = hit[2], hit[3]
+
+
 def main():
+    global SRC
+    # --src 경로 = 바탕 트랙 바꾸기(2026-10-14 무수정 원본이 사라져 예전 패치판 사본으로 설치 확인용 빌드).
+    #   이때는 «원본과 같으면 건너뜀»을 끄고(바탕에 예전 패치가 남지 않게) xdelta 는 안 만든다(배포는 무수정 원본 기준이어야 함).
+    other_src = '--src' in sys.argv
+    if other_src:
+        SRC = sys.argv[sys.argv.index('--src') + 1]
     dst = os.path.join(DSTDIR, DSTNAME)
     files = [f for f in sorted(os.listdir(BUILD))
              if '_' in f and not f.endswith('.bin.tmp')]
@@ -61,21 +104,29 @@ def main():
             table[a[0]] = (lba, size)
 
     plan = []
+    grown = []
+    sysip = None
     for f in files:
+        if f == 'SYS_IP.BIN':
+            sysip = open(os.path.join(BUILD, f), 'rb').read()
+            assert len(sysip) == 16 * 2048
+            continue
         p = iso_path(f)
         if p not in table:
             print('  건너뜀 %s (ISO에 없음)' % f)
             continue
         data = open(os.path.join(BUILD, f), 'rb').read()
         orig = os.path.join('work/dm', f)
-        if os.path.exists(orig) and open(orig, 'rb').read() == data:
+        if not other_src and os.path.exists(orig) and open(orig, 'rb').read() == data:
             continue                       # 원본과 같으면 쓸 필요 없다
         lba, size = table[p]
+        if len(data) > size:
+            grown.append((p, data)); continue
         if len(data) != size:
-            raise SystemExit('%s: 크기 %d ≠ 원본 %d — 제자리 교체 불가'
+            raise SystemExit('%s: 크기 %d < 원본 %d — 줄어든 파일은 지원 안 함'
                              % (p, len(data), size))
         plan.append((p, lba, size, data))
-    if not plan:
+    if not plan and not grown and sysip is None:
         raise SystemExit('써넣을 대상이 없다')
     for p, lba, size, _ in plan:
         print('  %-22s LBA %-7d %d B' % (p, lba, size))
@@ -98,6 +149,34 @@ def main():
                 ranges.append((pos, n))
                 off += n
                 s += 1
+        if sysip is not None:                           # IP.BIN = 시스템 영역 LBA 0‥15
+            for k in range(16):
+                pos = k * I.SECTOR + I.DATA_OFF
+                f.seek(pos); f.write(sysip[k * 2048:(k + 1) * 2048]); ranges.append((pos, 2048))
+            plan.append(('(IP.BIN)', 0, len(sysip), sysip))
+            print('  %-22s LBA 0‥15' % '(IP.BIN 시스템 영역)')
+        for p, data in grown:                            # 커진 파일 → 트랙 끝으로
+            f.seek(0, 2)
+            lba = f.tell() // I.SECTOR
+            n = (len(data) + 2047) // 2048
+            for k in range(n):
+                fad = lba + k + 150
+                m, sec, fr = fad // 4500, fad // 75 % 60, fad % 75
+                bcd = lambda v: (v // 10) << 4 | v % 10
+                hdr = b'\x00' + b'\xff' * 10 + b'\x00' + bytes((bcd(m), bcd(sec), bcd(fr), 1))
+                chunk = data[k * 2048:(k + 1) * 2048]
+                f.write(hdr + chunk + bytes(2048 - len(chunk)) + bytes(288))
+                ranges.append(((lba + k) * I.SECTOR + I.DATA_OFF, 2048))
+            rpos = find_record(f, p)
+            f.seek(rpos + 2); f.write(struct.pack('<I', lba) + struct.pack('>I', lba)
+                                      + struct.pack('<I', len(data)) + struct.pack('>I', len(data)))
+            ranges.append((rpos, 18))
+            total = f.seek(0, 2) // I.SECTOR
+            pvd = 16 * I.SECTOR + I.DATA_OFF
+            f.seek(pvd + 80); f.write(struct.pack('<I', total) + struct.pack('>I', total))
+            ranges.append((pvd + 80, 8))
+            plan.append((p, lba, len(data), data))
+            print('  %-22s → 트랙 끝 LBA %d (%d B, 원래 자리 그대로 둠)' % (p, lba, len(data)))
         print('EDC/ECC 재계산 중…', flush=True)
         ns = cdrom_ecc.fix_sectors(f, ranges)
     print('  섹터 %d개 재계산' % ns)
@@ -121,7 +200,9 @@ def main():
         raise SystemExit('검증 실패')
 
     print('%s' % dst)
-    if os.path.exists(XDELTA):
+    if other_src:
+        print('★--src 바탕 → xdelta 안 만듦(배포 패치는 무수정 원본 기준)')
+    elif os.path.exists(XDELTA):
         out = 'work/gdm_kr.xdelta'
         r = subprocess.run([XDELTA, '-f', '-s', SRC, dst, out],
                            capture_output=True)
